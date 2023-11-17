@@ -3,6 +3,7 @@ numpy
 requests
 re
 bs4
-mathplotlib
+matplotlib
 matplotlib.pyplot
 seaborn
+math
