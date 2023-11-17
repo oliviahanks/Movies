@@ -1,5 +1,6 @@
 import pandas as pd
 import re
+import math
 
 
 # Clean Rotten Tomatoes
@@ -53,5 +54,7 @@ imdb['actors'] = imdb['actors'].str.split(',')
 imdb['director'] = imdb['director'].str.split(',')
 
 imdb['title'] = imdb.title.str.strip()
+
+imdb['decade'] = imdb.year.apply(lambda x: math.floor(x/10)*10)
 
 imdb.to_csv('disney_movie_analysis/data/imdb.csv', index = False)
