@@ -13,7 +13,7 @@ setup(
     version = '0.1.1',
     description = 'We looked at subsets of Disney movies and ran analysis on them.',
     author = ['Daisy Harris', 'Olivia Hanks'],
-    author_email = ['dasharon@byu.edu', 'hankso@byu.edu],
+    author_email = ['dasharon@byu.edu', 'hankso@byu.edu'],
     packages = find_packages(),
     install_requires = parse_requirements('requirements.txt'),
     package_data = {'disney_movie_analysis': ['datasets/*.csv']},

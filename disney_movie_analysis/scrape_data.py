@@ -7,6 +7,13 @@ import requests
 from bs4 import BeautifulSoup
 
 
+def get_html_text(bs, name, attrs):
+    try:
+        text = bs.find(name, attrs).text
+    except:
+        text = None
+    return text
+
 
 # Read in Rotten Tomatoes Data
 
