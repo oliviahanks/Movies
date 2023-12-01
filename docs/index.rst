@@ -6,6 +6,8 @@
 Welcome to Movies's documentation!
 ==================================
 
+.. include:: ../readme_link.rst
+   
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
