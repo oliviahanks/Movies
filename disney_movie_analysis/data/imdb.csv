@@ -1,0 +1,507 @@
+title,year,score,runtime,rating,genre,gross,director,actors,decade
+Jungle Cruise,2021,6.6,127,PG-13,"Action, Adventure, Comedy",207147,['Jaume Collet-Serra'],"['Dwayne Johnson', 'Emily Blunt', 'Edgar Ramírez', 'Jack Whitehall']",2020
+Black Widow,2021,6.7,134,PG-13,"Action, Adventure, Sci-Fi",413657,['Cate Shortland'],"['Scarlett Johansson', 'Florence Pugh', 'David Harbour', 'Rachel Weisz']",2020
+Raya and the Last Dragon,2021,7.3,107,PG,"Animation, Action, Adventure",166352,"['Don Hall', 'Carlos López Estrada', 'Paul Briggs', 'John Ripa']","['Kelly Marie Tran', 'Awkwafina', 'Gemma Chan', 'Izaac Wang']",2020
+Soul,2020,8.0,100,PG,"Animation, Adventure, Comedy",363190,"['Pete Docter', 'Kemp Powers']","['Jamie Foxx', 'Tina Fey', 'Graham Norton', 'Rachel House']",2020
+Artemis Fowl,2020,4.3,95,PG,"Adventure, Family, Fantasy",30063,['Kenneth Branagh'],"['Ferdia Shaw', 'Lara McDonnell', 'Josh Gad', 'Tamara Smart']",2020
+Mulan,2020,5.8,115,PG-13,"Action, Adventure, Drama",156700,['Niki Caro'],"['Liu Yifei', 'Donnie Yen', 'Gong Li', 'Jet Li']",2020
+Onward,2020,7.4,102,PG,"Animation, Action, Adventure",164658,['Dan Scanlon'],"['Tom Holland', 'Chris Pratt', 'Julia Louis-Dreyfus', 'Octavia Spencer']",2020
+Star Wars: The Rise Of Skywalker,2019,6.4,141,PG-13,"Action, Adventure, Fantasy",481401,['J.J. Abrams'],"['Daisy Ridley', 'John Boyega', 'Oscar Isaac', 'Adam Driver']",2010
+Frozen II,2019,6.8,103,PG,"Animation, Adventure, Comedy",188444,"['Chris Buck', 'Jennifer Lee']","['Kristen Bell', 'Idina Menzel', 'Josh Gad', 'Jonathan Groff']",2010
+Maleficent: Mistress of Evil,2019,6.6,119,PG,"Adventure, Family, Fantasy",115697,['Joachim Rønning'],"['Angelina Jolie', 'Elle Fanning', 'Harris Dickinson', 'Michelle Pfeiffer']",2010
+Wizards of Warna Walk,2019,6.8,25,Approved,Drama,34,['nan'],,2010
+The Lion King,2019,6.8,118,PG,"Animation, Adventure, Drama",261618,['Jon Favreau'],"['Donald Glover', 'Beyoncé', 'Seth Rogen', 'Chiwetel Ejiofor']",2010
+Toy Story 4,2019,7.7,100,G,"Animation, Adventure, Comedy",272179,['Josh Cooley'],"['Tom Hanks', 'Tim Allen', 'Annie Potts', 'Tony Hale']",2010
+Dark Phoenix,2019,5.7,113,PG-13,"Action, Adventure, Sci-Fi",200154,['Simon Kinberg'],"['James McAvoy', 'Michael Fassbender', 'Jennifer Lawrence', 'Nicholas Hoult']",2010
+Aladdin,2019,6.9,128,PG,"Adventure, Comedy, Family",284309,['Guy Ritchie'],"['Will Smith', 'Mena Massoud', 'Naomi Scott', 'Marwan Kenzari']",2010
+Avengers: Endgame,2019,8.4,181,PG-13,"Action, Adventure, Drama",1229393,"['Anthony Russo', 'Joe Russo']","['Robert Downey Jr.', 'Chris Evans', 'Mark Ruffalo', 'Chris Hemsworth']",2010
+Dumbo,2019,6.3,112,PG,"Adventure, Family, Fantasy",81126,['Tim Burton'],"['Colin Farrell', 'Michael Keaton', 'Danny DeVito', 'Eva Green']",2010
+Captain Marvel,2019,6.8,123,PG-13,"Action, Adventure, Sci-Fi",598350,"['Anna Boden', 'Ryan Fleck']","['Brie Larson', 'Samuel L. Jackson', 'Ben Mendelsohn', 'Jude Law']",2010
+Kim Possible,2019,3.7,86,TV-G,"Action, Adventure, Comedy",3542,"['Zach Lipovsky', 'Adam B. Stein']","['Sadie Stanley', 'Sean Giambrone', 'Ciara Riley Wilson', 'Taylor Ortega']",2010
+Mary Poppins Returns,2018,6.7,130,PG,"Adventure, Comedy, Family",93474,['Rob Marshall'],"['Emily Blunt', 'Lin-Manuel Miranda', 'Ben Whishaw', 'Emily Mortimer']",2010
+Ralph Breaks the Internet,2018,7.0,112,PG,"Animation, Adventure, Comedy",177289,"['Phil Johnston', 'Rich Moore']","['John C. Reilly', 'Sarah Silverman', 'Gal Gadot', 'Taraji P. Henson']",2010
+The Nutcracker and the Four Realms,2018,5.6,99,PG,"Adventure, Family, Fantasy",36145,"['Lasse Hallström', 'Joe Johnston']","['Mackenzie Foy', 'Keira Knightley', 'Morgan Freeman', 'Helen Mirren']",2010
+Celebrating Mickey,2018,8.3,101,,"Animation, Comedy, Family",34,['nan'],,2010
+Freaky Friday,2018,3.8,90,TV-G,"Comedy, Fantasy, Musical",1644,['Steve Carr'],"['Cozi Zuehlsdorff', 'Heidi Blickenstaff', 'Jason Maybaum', 'Alex Désert']",2010
+Christopher Robin,2018,7.2,104,PG,"Adventure, Comedy, Drama",82875,['Marc Forster'],"['Ewan McGregor', 'Hayley Atwell', 'Bronte Carmichael', 'Mark Gatiss']",2010
+Ant-Man and the Wasp,2018,7.0,118,PG-13,"Action, Adventure, Comedy",439228,['Peyton Reed'],"['Paul Rudd', 'Evangeline Lilly', 'Michael Peña', 'Walton Goggins']",2010
+Incredibles 2,2018,7.6,118,PG,"Animation, Action, Adventure",321492,['Brad Bird'],"['Craig T. Nelson', 'Holly Hunter', 'Sarah Vowell', 'Huck Milner']",2010
+Avengers: Infinity War,2018,8.4,149,PG-13,"Action, Adventure, Sci-Fi",1169220,"['Anthony Russo', 'Joe Russo']","['Robert Downey Jr.', 'Chris Hemsworth', 'Mark Ruffalo', 'Chris Evans']",2010
+A Wrinkle in Time,2018,4.3,109,PG,"Adventure, Drama, Family",47198,['Ava DuVernay'],"['Storm Reid', 'Oprah Winfrey', 'Reese Witherspoon', 'Mindy Kaling']",2010
+Black Panther,2018,7.3,134,PG-13,"Action, Adventure, Sci-Fi",821662,['Ryan Coogler'],"['Chadwick Boseman', 'Michael B. Jordan', ""Lupita Nyong'o"", 'Danai Gurira']",2010
+Coco,2017,8.4,105,PG,"Animation, Adventure, Drama",566301,"['Lee Unkrich', 'Adrian Molina']","['Anthony Gonzalez', 'Gael García Bernal', 'Benjamin Bratt', 'Alanna Ubach']",2010
+Thor: Ragnarok,2017,7.9,130,PG-13,"Action, Adventure, Comedy",799884,['Taika Waititi'],"['Chris Hemsworth', 'Tom Hiddleston', 'Cate Blanchett', 'Mark Ruffalo']",2010
+Cars 3,2017,6.7,102,G,"Animation, Adventure, Comedy",115925,['Brian Fee'],"['Owen Wilson', 'Cristela Alonzo', 'Chris Cooper', 'Nathan Fillion']",2010
+Pirates of the Caribbean: Dead Men Tell No Tales,2017,6.5,129,PG-13,"Action, Adventure, Fantasy",336243,"['Joachim Rønning', 'Espen Sandberg']","['Johnny Depp', 'Geoffrey Rush', 'Javier Bardem', 'Orlando Bloom']",2010
+Guardians of the Galaxy Vol. 2,2017,7.6,136,PG-13,"Action, Adventure, Comedy",742402,['James Gunn'],"['Chris Pratt', 'Zoe Saldana', 'Dave Bautista', 'Vin Diesel']",2010
+Beauty and the Beast,2017,7.1,129,PG,"Adventure, Family, Fantasy",328009,['Bill Condon'],"['Emma Watson', 'Dan Stevens', 'Luke Evans', 'Josh Gad']",2010
+Rogue One: A Star Wars Story,2016,7.8,133,PG-13,"Action, Adventure, Sci-Fi",673552,['Gareth Edwards'],"['Felicity Jones', 'Diego Luna', 'Alan Tudyk', 'Donnie Yen']",2010
+Moana,2016,7.6,107,PG,"Animation, Adventure, Comedy",365676,"['Ron Clements', 'John Musker', 'Don Hall', 'Chris Williams']","[""Auli'i Cravalho"", 'Dwayne Johnson', 'Rachel House', 'Temuera Morrison']",2010
+Doctor Strange,2016,7.5,115,PG-13,"Action, Adventure, Fantasy",787659,['Scott Derrickson'],"['Benedict Cumberbatch', 'Chiwetel Ejiofor', 'Rachel McAdams', 'Benedict Wong']",2010
+Queen of Katwe,2016,7.4,124,PG,"Biography, Drama, Sport",18432,['Mira Nair'],"['Madina Nalwanga', 'David Oyelowo', ""Lupita Nyong'o"", 'Martin Kabanza']",2010
+Pete's Dragon,2016,6.7,102,PG,"Action, Adventure, Comedy",60981,['David Lowery'],"['Bryce Dallas Howard', 'Robert Redford', 'Oakes Fegley', 'Oona Laurence']",2010
+Adventures in Babysitting,2016,5.9,105,TV-G,"Adventure, Comedy, Family",4459,['John Schultz'],"['Sabrina Carpenter', 'Sofia Carson', 'Nikki Hahn', 'Mallory James Mahoney']",2010
+Finding Dory,2016,7.2,97,PG,"Animation, Adventure, Comedy",295820,"['Andrew Stanton', 'Angus MacLane']","['Ellen DeGeneres', 'Albert Brooks', ""Ed O'Neill"", 'Kaitlin Olson']",2010
+The BFG,2016,6.3,117,PG,"Adventure, Family, Fantasy",91634,['Steven Spielberg'],"['Mark Rylance', 'Ruby Barnhill', 'Penelope Wilton', 'Jemaine Clement']",2010
+Alice Through the Looking Glass,2016,6.2,113,PG,"Adventure, Family, Fantasy",118955,['James Bobin'],"['Mia Wasikowska', 'Johnny Depp', 'Helena Bonham Carter', 'Anne Hathaway']",2010
+Captain America: Civil War,2016,7.8,147,PG-13,"Action, Sci-Fi",833382,"['Anthony Russo', 'Joe Russo']","['Chris Evans', 'Robert Downey Jr.', 'Scarlett Johansson', 'Sebastian Stan']",2010
+The Jungle Book,2016,7.4,106,PG,"Adventure, Drama, Family",288200,['Jon Favreau'],"['Neel Sethi', 'Bill Murray', 'Ben Kingsley', 'Idris Elba']",2010
+Zootopia,2016,8.0,108,PG,"Animation, Adventure, Comedy",532327,"['Byron Howard', 'Rich Moore', 'Jared Bush']","['Ginnifer Goodwin', 'Jason Bateman', 'Idris Elba', 'Jenny Slate']",2010
+The Finest Hours,2016,6.7,117,PG-13,"Action, Drama, History",69811,['Craig Gillespie'],"['Chris Pine', 'Casey Affleck', 'Ben Foster', 'Eric Bana']",2010
+Star Wars: Episode VII - The Force Awakens,2015,7.8,138,PG-13,"Action, Adventure, Sci-Fi",961618,['J.J. Abrams'],"['Daisy Ridley', 'John Boyega', 'Oscar Isaac', 'Domhnall Gleeson']",2010
+The Good Dinosaur,2015,6.7,93,PG,"Animation, Adventure, Comedy",124579,['Peter Sohn'],"['Jeffrey Wright', 'Frances McDormand', 'Maleah Nipay-Padilla', 'Ryan Teeple']",2010
+Ant-Man,2015,7.3,117,PG-13,"Action, Comedy, Sci-Fi",709119,['Peyton Reed'],"['Paul Rudd', 'Michael Douglas', 'Corey Stoll', 'Evangeline Lilly']",2010
+Inside Out,2015,8.1,95,PG,"Animation, Adventure, Comedy",763775,"['Pete Docter', 'Ronnie Del Carmen']","['Amy Poehler', 'Bill Hader', 'Lewis Black', 'Mindy Kaling']",2010
+Tomorrowland,2015,6.4,130,PG,"Action, Adventure, Family",188922,['Brad Bird'],"['George Clooney', 'Britt Robertson', 'Hugh Laurie', 'Raffey Cassidy']",2010
+Cinderella,2015,6.9,105,PG,"Adventure, Drama, Family",187221,['Kenneth Branagh'],"['Lily James', 'Cate Blanchett', 'Richard Madden', 'Helena Bonham Carter']",2010
+"McFarland, USA",2015,7.4,129,PG,"Biography, Drama, Sport",41383,['Niki Caro'],"['Kevin Costner', 'Maria Bello', 'Ramiro Rodriguez', 'Carlos Pratts']",2010
+Into the Woods,2014,5.9,125,PG,"Adventure, Comedy, Drama",146433,['Rob Marshall'],"['Anna Kendrick', 'Meryl Streep', 'Chris Pine', 'Emily Blunt']",2010
+Big Hero 6,2014,7.8,102,PG,"Animation, Action, Adventure",490373,"['Don Hall', 'Chris Williams']","['Ryan Potter', 'Scott Adsit', 'Jamie Chung', 'T.J. Miller']",2010
+"Alexander and the Terrible, Horrible, No Good, Very Bad Day",2014,6.2,81,PG,"Comedy, Drama, Family",46063,['Miguel Arteta'],"['Steve Carell', 'Jennifer Garner', 'Ed Oxenbould', 'Dylan Minnette']",2010
+Planes: Fire & Rescue,2014,5.9,83,PG,"Animation, Adventure, Comedy",19424,['Bobs Gannaway'],"['Dane Cook', 'Ed Harris', 'Julie Bowen', 'Curtis Armstrong']",2010
+Maleficent,2014,6.9,97,PG,"Adventure, Family, Fantasy",394464,['Robert Stromberg'],"['Angelina Jolie', 'Elle Fanning', 'Sharlto Copley', 'Lesley Manville']",2010
+Million Dollar Arm,2014,7.0,124,PG,"Biography, Drama, Sport",47442,['Craig Gillespie'],"['Jon Hamm', 'Aasif Mandvi', 'Alan Arkin', 'Suraj Sharma']",2010
+Bears,2014,7.3,78,G,"Documentary, Family",7029,"['Alastair Fothergill', 'Keith Scholey', 'Adam Chapman']",['John C. Reilly'],2010
+Muppets Most Wanted,2014,6.4,107,PG,"Adventure, Comedy, Crime",36513,['James Bobin'],"['Ricky Gervais', 'Ty Burrell', 'Tina Fey', 'Steve Whitmire']",2010
+Frozen,2013,7.4,102,PG,"Animation, Adventure, Comedy",652012,"['Chris Buck', 'Jennifer Lee']","['Kristen Bell', 'Idina Menzel', 'Jonathan Groff', 'Josh Gad']",2010
+Saving Mr. Banks,2013,7.5,125,PG-13,"Biography, Comedy, Drama",168228,['John Lee Hancock'],"['Emma Thompson', 'Tom Hanks', 'Annie Rose Buckley', 'Colin Farrell']",2010
+Planes,2013,5.7,91,PG,"Animation, Adventure, Comedy",47863,['Klay Hall'],"['Carlos Alazraqui', 'Dane Cook', 'Stacy Keach', 'Brad Garrett']",2010
+Teen Beach Movie,2013,5.9,110,Not Rated,"Comedy, Family, Fantasy",13536,['Jeffrey Hornaday'],"['Ross Lynch', 'Maia Mitchell', 'Gracie Gillam', 'Garrett Clayton']",2010
+The Lone Ranger,2013,6.4,150,PG-13,"Action, Adventure, Western",242161,['Gore Verbinski'],"['Johnny Depp', 'Armie Hammer', 'William Fichtner', 'Tom Wilkinson']",2010
+Monsters University,2013,7.2,104,G,"Animation, Adventure, Comedy",381562,['Dan Scanlon'],"['Billy Crystal', 'John Goodman', 'Steve Buscemi', 'Helen Mirren']",2010
+The Wizards Return: Alex vs. Alex,2013,6.3,60,TV-G,"Animation, Action, Adventure",7061,['Victor Gonzalez'],"['Selena Gomez', 'Jake T. Austin', 'Jennifer Stone', 'Gregg Sulkin']",2010
+Oz the Great and Powerful,2013,6.3,130,PG,"Adventure, Family, Fantasy",212911,['Sam Raimi'],"['James Franco', 'Michelle Williams', 'Rachel Weisz', 'Mila Kunis']",2010
+Wreck-It Ralph,2012,7.7,101,PG,"Animation, Adventure, Comedy",448796,['Rich Moore'],"['John C. Reilly', 'Jack McBrayer', 'Jane Lynch', 'Sarah Silverman']",2010
+Frankenweenie,2012,6.9,87,PG,"Animation, Comedy, Drama",115443,['Tim Burton'],"['Winona Ryder', ""Catherine O'Hara"", 'Martin Short', 'Martin Landau']",2010
+Beverly Hills Chihuahua 3: Viva La Fiesta!,2012,4.4,89,G,"Adventure, Comedy, Family",2348,['Lev L. Spiro'],"['Marcus Coloma', 'Erin Cahill', 'Cedric Yarbrough', 'Frances Fisher']",2010
+The Odd Life of Timothy Green,2012,6.6,105,PG,"Comedy, Drama, Family",48192,['Peter Hedges'],"['Jennifer Garner', 'Joel Edgerton', 'CJ Adams', 'Odeya Rush']",2010
+Brave,2012,7.1,93,PG,"Animation, Action, Adventure",433452,"['Mark Andrews', 'Brenda Chapman', 'Steve Purcell']","['Kelly Macdonald', 'Billy Connolly', 'Emma Thompson', 'Julie Walters']",2010
+Let It Shine,2012,6.4,104,TV-G,"Drama, Family, Music",4387,['Paul Hoen'],"['Tyler James Williams', 'Coco Jones', 'Trevor Jackson', 'Toni Winzy-Cutno']",2010
+Chimpanzee,2012,7.1,78,G,"Documentary, Family",6330,"['Alastair Fothergill', 'Mark Linfield']",['Tim Allen'],2010
+John Carter,2012,6.6,132,PG-13,"Action, Adventure, Sci-Fi",282851,['Andrew Stanton'],"['Taylor Kitsch', 'Lynn Collins', 'Willem Dafoe', 'Samantha Morton']",2010
+The Muppets,2011,7.1,103,PG,"Adventure, Comedy, Family",95948,['James Bobin'],"['Amy Adams', 'Jason Segel', 'Chris Cooper', 'Rashida Jones']",2010
+Phineas and Ferb the Movie: Across the 2nd Dimension,2011,7.4,78,TV-G,"Animation, Action, Adventure",13239,"['Robert Hughes', 'Dan Povenmire', 'Jay Lender', ""Jeff 'Swampy' Marsh"", 'Kyle Menke']","['Vincent Martella', 'Ashley Tisdale', 'Thomas Brodie-Sangster', 'Caroline Rhea']",2010
+Cars 2,2011,6.2,106,G,"Animation, Adventure, Comedy",210250,"['John Lasseter', 'Bradford Lewis']","['Owen Wilson', 'Larry the Cable Guy', 'Michael Caine', 'Emily Mortimer']",2010
+Pirates of the Caribbean: On Stranger Tides,2011,6.6,136,PG-13,"Action, Adventure, Fantasy",553640,['Rob Marshall'],"['Johnny Depp', 'Penélope Cruz', 'Ian McShane', 'Geoffrey Rush']",2010
+Prom,2011,5.4,104,PG,"Comedy, Drama, Family",15611,['Joe Nussbaum'],"['Aimee Teegarden', 'Thomas McDonell', 'DeVaughn Nixon', 'Danielle Campbell']",2010
+African Cats,2011,7.5,89,G,"Documentary, Adventure",6678,"['Keith Scholey', 'Alastair Fothergill']","['Samuel L. Jackson', 'Patrick Stewart']",2010
+Sharpay's Fabulous Adventure,2011,4.7,90,G,"Comedy, Drama, Family",7325,['Michael Lembeck'],"['Ashley Tisdale', 'Austin Butler', 'Cameron Goodman', 'Bradley Steven Perry']",2010
+Zokkomon,2011,4.1,109,PG,"Action, Adventure, Family",452,['Satyajit Bhatkal'],"['Darsheel Safary', 'Anupam Kher', 'Manjari Fadnnis', 'Tinnu Anand']",2010
+Lemonade Mouth,2011,6.9,103,TV-PG,"Comedy, Drama, Family",19892,['Patricia Riggen'],"['Bridgit Mendler', 'Adam Hicks', 'Hayley Kiyoko', 'Naomi Scott']",2010
+Winnie the Pooh,2011,7.1,63,G,"Animation, Adventure, Comedy",27705,"['Stephen J. Anderson', 'Don Hall']","['Jim Cummings', 'Craig Ferguson', 'John Cleese', 'Bud Luckey']",2010
+Mars Needs Moms,2011,5.4,88,PG,"Animation, Action, Adventure",23630,['Simon Wells'],"['Seth Green', 'Joan Cusack', 'Dan Fogler', 'Elisabeth Harnois']",2010
+Beverly Hills Chihuahua 2,2011,4.2,85,G,"Adventure, Comedy, Family",4383,['Alex Zamm'],"['Marcus Coloma', 'Erin Cahill', 'Susan Blakely', 'Lupe Ontiveros']",2010
+TRON: Legacy,2010,6.8,125,PG,"Action, Adventure, Sci-Fi",350937,['Joseph Kosinski'],"['Jeff Bridges', 'Garrett Hedlund', 'Olivia Wilde', 'Bruce Boxleitner']",2010
+Tangled,2010,7.7,100,PG,"Animation, Adventure, Comedy",482748,"['Nathan Greno', 'Byron Howard']","['Mandy Moore', 'Zachary Levi', 'Donna Murphy', 'Ron Perlman']",2010
+The Search for Santa Paws,2010,5.3,96,G,"Adventure, Drama, Family",3118,['Robert Vince'],"['Kaitlyn Maher', 'Madison Pettis', 'Richard Riehle', 'Danny Woodburn']",2010
+Disney WOW: World of Wonder,2010,8.8,240,,Documentary,11,['Richard J. Casey'],"['Eryca Dawson', 'Craig Sechler']",2010
+Secretariat,2010,7.2,123,PG,"Biography, Drama, Family",30102,['Randall Wallace'],"['Diane Lane', 'John Malkovich', 'Margo Martindale', 'Nelsan Ellis']",2010
+Camp Rock 2: The Final Jam,2010,5.2,97,TV-G,"Comedy, Family, Music",20172,['Paul Hoen'],"['Demi Lovato', 'Joe Jonas', 'Nick Jonas', 'Kevin Jonas']",2010
+The Secret World of Arrietty,2010,7.6,94,G,"Animation, Adventure, Drama",100481,['Hiromasa Yonebayashi'],"['Bridgit Mendler', 'Amy Poehler', 'Will Arnett', 'Mirai Shida']",2010
+The Sorcerer's Apprentice,2010,6.1,109,PG,"Action, Adventure, Family",168193,['Jon Turteltaub'],"['Nicolas Cage', 'Jay Baruchel', 'Alfred Molina', 'Teresa Palmer']",2010
+Toy Story 3,2010,8.3,103,G,"Animation, Adventure, Comedy",876432,['Lee Unkrich'],"['Tom Hanks', 'Tim Allen', 'Joan Cusack', 'Ned Beatty']",2010
+Prince of Persia: The Sands of Time,2010,6.6,116,PG-13,"Action, Adventure, Fantasy",300422,['Mike Newell'],"['Jake Gyllenhaal', 'Gemma Arterton', 'Ben Kingsley', 'Alfred Molina']",2010
+Alice in Wonderland,2010,6.4,108,PG,"Adventure, Family, Fantasy",433999,['Tim Burton'],"['Mia Wasikowska', 'Johnny Depp', 'Helena Bonham Carter', 'Anne Hathaway']",2010
+StarStruck,2010,6.1,90,TV-G,"Comedy, Family, Music",16968,['Michael Grossman'],"['Sterling Knight', 'Danielle Campbell', 'Maggie Castle', 'Brandon Mychal Smith']",2010
+Prep & Landing,2009,7.6,22,TV-G,"Animation, Short, Adventure",3765,"['Kevin Deters', 'Stevie Wermers']","['David Foley', 'Sarah Chalke', 'Mason Cotton', 'David DeLuise']",2000
+Old Dogs,2009,5.3,88,PG,"Comedy, Family",39234,['Walt Becker'],"['Robin Williams', 'John Travolta', 'Seth Green', 'Kelly Preston']",2000
+The Princess and the Frog,2009,7.1,97,G,"Animation, Adventure, Comedy",161857,"['Ron Clements', 'John Musker']","['Anika Noni Rose', 'Keith David', 'Oprah Winfrey', 'Bruno Campos']",2000
+A Christmas Carol,2009,6.8,96,PG,"Animation, Adventure, Comedy",125233,['Robert Zemeckis'],"['Jim Carrey', 'Gary Oldman', 'Colin Firth', 'Steve Valentine']",2000
+Where the Wild Things Are,2009,6.7,101,PG,"Adventure, Drama, Family",107762,['Spike Jonze'],"['Max Records', ""Catherine O'Hara"", 'Forest Whitaker', 'Pepita Emmerichs']",2000
+Wizards on Deck with Hannah Montana,2009,6.5,68,,"Comedy, Family",1634,['nan'],,2000
+Waking Sleeping Beauty,2009,7.5,86,PG,"Documentary, Drama, History",3216,['Don Hahn'],"['Roy Edward Disney', 'John Lasseter', 'Michael Eisner', 'Don Hahn']",2000
+Wizards of Waverly Place: The Movie,2009,6.2,94,TV-G,"Action, Adventure, Comedy",20299,['Lev L. Spiro'],"['Selena Gomez', 'David Henrie', 'Jake T. Austin', 'Jennifer Stone']",2000
+G-Force,2009,5.1,88,PG,"Action, Adventure, Comedy",49156,['Hoyt Yeatman'],"['Will Arnett', 'Penélope Cruz', 'Zach Galifianakis', 'Bill Nighy']",2000
+Princess Protection Program,2009,5.6,90,TV-G,"Comedy, Drama, Family",25997,['Allison Liddi-Brown'],"['Demi Lovato', 'Selena Gomez', 'Nicholas Braun', 'Molly Hagan']",2000
+Up,2009,8.3,96,PG,"Animation, Adventure, Comedy",1100346,"['Pete Docter', 'Bob Peterson']","['Edward Asner', 'Jordan Nagai', 'John Ratzenberger', 'Christopher Plummer']",2000
+Xiong mao hui jia lu,2009,6.3,87,G,"Adventure, Family",245,['Zhong Yu'],"['Daichi Harashima', 'Li Feng', 'Zhong Yu', 'Chang Liu']",2000
+Hatching Pete,2009,5.3,90,TV-G,"Comedy, Family",2982,['Stuart Gillard'],"['Jason Dolley', 'Mitchel Musso', 'Tiffany Thornton', 'Josie Loren']",2000
+Hannah Montana: The Movie,2009,4.6,102,G,"Comedy, Drama, Family",44946,['Peter Chelsom'],"['Miley Cyrus', 'Emily Osment', 'Billy Ray Cyrus', 'Jason Earles']",2000
+The Perfect Game,2009,6.9,118,PG,"Comedy, Drama, Family",4074,['William Dear'],"['Clifton Collins Jr.', 'Cheech Marin', 'Moises Arias', 'Jake T. Austin']",2000
+Race to Witch Mountain,2009,5.7,98,PG,"Action, Adventure, Family",62321,['Andy Fickman'],"['Dwayne Johnson', 'Carla Gugino', 'AnnaSophia Robb', 'Alexander Ludwig']",2000
+Dadnapped,2009,4.8,84,TV-G,"Action, Adventure, Comedy",3246,['Paul Hoen'],"['Emily Osment', 'David Henrie', 'Jason Earles', 'Jonathan Keltz']",2000
+Bedtime Stories,2008,6.0,99,PG,"Adventure, Comedy, Family",99986,['Adam Shankman'],"['Adam Sandler', 'Keri Russell', 'Courteney Cox', 'Guy Pearce']",2000
+A Muppets Christmas: Letters to Santa,2008,6.3,60,G,"Comedy, Family, Music",2362,['Kirk R. Thatcher'],"['Steve Whitmire', 'Dave Goelz', 'Bill Barretta', 'Eric Jacobson']",2000
+Bolt,2008,6.8,96,PG,"Animation, Adventure, Comedy",224634,"['Byron Howard', 'Chris Williams']","['John Travolta', 'Miley Cyrus', 'Susie Essman', 'Mark Walton']",2000
+High School Musical 3: Senior Year,2008,4.9,112,G,"Comedy, Drama, Family",66384,['Kenny Ortega'],"['Zac Efron', 'Vanessa Hudgens', 'Ashley Tisdale', 'Lucas Grabeel']",2000
+Morning Light,2008,5.7,97,PG,"Documentary, Sport",412,['Mark Monroe'],"['Chris Branning', 'Kate Theisen', 'Chris Schubert', 'Graham Brant-Zawadzki']",2000
+Beverly Hills Chihuahua,2008,3.9,91,PG,"Adventure, Comedy, Drama",25520,['Raja Gosnell'],"['Drew Barrymore', 'George Lopez', 'Piper Perabo', 'Manolo Cardona']",2000
+The Little Mermaid: Ariel's Beginning,2008,6.1,77,G,"Animation, Adventure, Comedy",11094,['Peggy Holmes'],"['Jodi Benson', 'Samuel E. Wright', 'Jim Cummings', 'Sally Field']",2000
+The Cheetah Girls: One World,2008,4.6,90,TV-G,"Comedy, Drama, Family",4755,['Paul Hoen'],"['Adrienne Houghton', 'Sabrina Bryan', 'Kiely Williams', 'Roshan Seth']",2000
+WALL·E,2008,8.4,98,G,"Animation, Adventure, Family",1174674,['Andrew Stanton'],"['Ben Burtt', 'Elissa Knight', 'Jeff Garlin', 'Fred Willard']",2000
+Camp Rock,2008,5.2,94,TV-G,"Comedy, Family, Music",36397,['Matthew Diamond'],"['Demi Lovato', 'Joe Jonas', 'Meaghan Martin', 'Maria Canals-Barrera']",2000
+The Chronicles of Narnia: Prince Caspian,2008,6.5,150,PG,"Action, Adventure, Family",221333,['Andrew Adamson'],"['Ben Barnes', 'Skandar Keynes', 'Georgie Henley', 'William Moseley']",2000
+Walt & El Grupo,2008,6.4,106,PG,Documentary,445,['Theodore Thomas'],"['Flávio Barroso', 'Lee Blair', 'Mary Blair', 'James Bodrero']",2000
+College Road Trip,2008,4.3,83,G,"Adventure, Comedy, Drama",16557,['Roger Kumble'],"['Raven-Symoné', 'Martin Lawrence', 'Kym Whitley', 'Adam LeFevre']",2000
+Minutemen,2008,5.8,98,TV-G,"Adventure, Comedy, Family",6472,['Lev L. Spiro'],"['Jason Dolley', 'Luke Benward', 'Nicholas Braun', 'Chelsea Kane']",2000
+National Treasure: Book of Secrets,2007,6.5,124,PG,"Action, Adventure, Mystery",249673,['Jon Turteltaub'],"['Nicolas Cage', 'Diane Kruger', 'Justin Bartha', 'Jon Voight']",2000
+Wish Gone Amiss,2007,6.7,70,,"Comedy, Family",238,['nan'],,2000
+Enchanted,2007,7.1,107,PG,"Animation, Adventure, Comedy",214299,['Kevin Lima'],"['Amy Adams', 'Susan Sarandon', 'James Marsden', 'Patrick Dempsey']",2000
+Twitches Too,2007,5.7,83,TV-PG,"Drama, Family, Fantasy",5618,['Stuart Gillard'],"['Tia Mowry', 'Tamera Mowry-Housley', 'Kristen Wilson', 'Patrick Fabian']",2000
+The Game Plan,2007,6.4,110,PG,"Comedy, Family, Sport",99038,['Andy Fickman'],"['Dwayne Johnson', 'Kyra Sedgwick', 'Madison Pettis', 'Roselyn Sanchez']",2000
+The Pixar Story,2007,7.7,87,G,Documentary,6953,['Leslie Iwerks'],"['Stacy Keach', 'John Lasseter', 'Brad Bird', 'John Musker']",2000
+High School Musical 2,2007,5.2,104,TV-G,"Comedy, Drama, Family",64792,['Kenny Ortega'],"['Zac Efron', 'Vanessa Hudgens', 'Ashley Tisdale', 'Lucas Grabeel']",2000
+Underdog,2007,4.8,84,PG,"Action, Adventure, Comedy",22467,['Frederik Du Chau'],"['Peter Dinklage', 'Jason Lee', 'Amy Adams', 'Jim Belushi']",2000
+The Secret of the Magic Gourd,2007,5.1,84,G,"Adventure, Comedy, Drama",850,"['John Chu', 'Frankie Chung']","['Corbin Bleu', 'Peisi Chen', 'Aaron Michael Drozin', 'Drake Johnston']",2000
+Ratatouille,2007,8.1,111,G,"Animation, Adventure, Comedy",798673,"['Brad Bird', 'Jan Pinkava']","['Brad Garrett', 'Lou Romano', 'Patton Oswalt', 'Ian Holm']",2000
+Pirates of the Caribbean: At World's End,2007,7.1,169,PG-13,"Action, Adventure, Fantasy",681089,['Gore Verbinski'],"['Johnny Depp', 'Orlando Bloom', 'Keira Knightley', 'Geoffrey Rush']",2000
+Meet the Robinsons,2007,6.8,95,G,"Animation, Adventure, Comedy",108928,['Stephen J. Anderson'],"['Daniel Hansen', 'Wesley Singerman', 'Angela Bassett', 'Jordan Fry']",2000
+Johnny Kapahala: Back on Board,2007,5.4,90,Not Rated,"Comedy, Drama, Family",2362,['Eric Bross'],"['Brandon Baker', 'Jake T. Austin', 'Cary-Hiroyuki Tagawa', 'Robyn Lively']",2000
+Bridge to Terabithia,2007,7.2,96,PG,"Drama, Family, Fantasy",168838,['Gabor Csupo'],"['Josh Hutcherson', 'AnnaSophia Robb', 'Zooey Deschanel', 'Robert Patrick']",2000
+Cinderella III: A Twist in Time,2007,6.0,73,G,"Animation, Adventure, Family",12453,['Frank Nissen'],"['Jennifer Hale', 'Christopher Daniel Barnes', 'Susanne Blakeslee', 'Tress MacNeille']",2000
+That's So Suite Life of Hannah Montana,2007,6.0,68,TV-G,"Comedy, Family",811,['Richard Correll'],"['Orlando Brown', 'Frances Callier', 'Billy Ray Cyrus', 'Miley Cyrus']",2000
+Jump in!,2007,5.4,85,TV-G,"Comedy, Drama, Family",8300,['Paul Hoen'],"['Corbin Bleu', 'Keke Palmer', 'David Reivers', 'Shanica Knowles']",2000
+The Fox and the Hound 2,2006,5.2,69,G,"Animation, Adventure, Comedy",5674,['Jim Kammerud'],"['Reba McEntire', 'Patrick Swayze', 'Jonah Bobo', 'Harrison Fahn']",2000
+The Santa Clause 3: The Escape Clause,2006,4.8,92,G,"Adventure, Comedy, Family",41259,['Michael Lembeck'],"['Tim Allen', 'Martin Short', 'Elizabeth Mitchell', 'Eric Lloyd']",2000
+Return to Halloweentown,2006,5.3,88,TV-PG,"Action, Comedy, Family",7512,['David Jackson'],"['Sara Paxton', 'Judith Hoag', 'Lucas Grabeel', 'Joey Zimmerman']",2000
+Invincible,2006,7.0,105,PG,"Biography, Drama, Sport",74317,['Ericson Core'],"['Mark Wahlberg', 'Greg Kinnear', 'Elizabeth Banks', 'Kevin Conway']",2000
+Brother Bear 2,2006,6.1,74,G,"Animation, Adventure, Comedy",19829,['Ben Gluck'],"['Patrick Dempsey', 'Mandy Moore', 'Jeremy Suarez', 'Rick Moranis']",2000
+Read It and Weep,2006,5.5,84,TV-G,"Animation, Comedy, Drama",5803,['Paul Hoen'],"['Kay Panabaker', 'Danielle Panabaker', 'Alexandra Krosney', 'Marquise C. Brown']",2000
+Pirates of the Caribbean: Dead Man's Chest,2006,7.4,151,PG-13,"Action, Adventure, Fantasy",753346,['Gore Verbinski'],"['Johnny Depp', 'Orlando Bloom', 'Keira Knightley', 'Jack Davenport']",2000
+Leroy & Stitch,2006,6.1,73,G,"Animation, Action, Adventure",6807,"['Tony Craig', 'Bobs Gannaway']","['Daveigh Chase', 'Chris Sanders', 'David Ogden Stiers', 'Kevin McDonald']",2000
+Wendy Wu: Homecoming Warrior,2006,5.4,91,TV-PG,"Action, Adventure, Family",7232,['John Laing'],"['Brenda Song', 'Shin Koyamada', 'Susan Chuang', 'Justin Chon']",2000
+Cow Belles,2006,5.1,90,TV-G,"Comedy, Family, Romance",6957,['Francine McDougall'],"['Aly Michalka', 'AJ Michalka', 'Jack Coleman', 'Sheila McCarthy']",2000
+Cars,2006,7.2,117,G,"Animation, Adventure, Comedy",455086,"['John Lasseter', 'Joe Ranft']","['Owen Wilson', 'Bonnie Hunt', 'Paul Newman', 'Larry the Cable Guy']",2000
+The Shaggy Dog,2006,4.4,98,PG,"Comedy, Family, Fantasy",19930,['Brian Robbins'],"['Tim Allen', 'Kristin Davis', 'Craig Kilborn', 'Zena Grey']",2000
+Eight Below,2006,7.3,120,PG,"Adventure, Drama, Family",67388,['Frank Marshall'],"['Paul Walker', 'Jason Biggs', 'Bruce Greenwood', 'Moon Bloodgood']",2000
+Bambi II,2006,6.1,75,G,"Animation, Adventure, Drama",11701,['Brian Pimental'],"['Patrick Stewart', 'Alexander Gould', 'Keith Ferguson', 'Brendon Baerg']",2000
+High School Musical,2006,5.5,98,TV-G,"Comedy, Drama, Family",94462,['Kenny Ortega'],"['Zac Efron', 'Vanessa Hudgens', 'Ashley Tisdale', 'Lucas Grabeel']",2000
+Glory Road,2006,7.2,118,PG,"Biography, Drama, Sport",48203,['James Gartner'],"['Josh Lucas', 'Derek Luke', 'Austin Nichols', 'Jon Voight']",2000
+"The Chronicles of Narnia: The Lion, the Witch and the Wardrobe",2005,6.9,143,PG,"Adventure, Family, Fantasy",418823,['Andrew Adamson'],"['Tilda Swinton', 'Georgie Henley', 'William Moseley', 'Skandar Keynes']",2000
+Twitches,2005,5.7,86,TV-PG,"Comedy, Drama, Family",9382,['Stuart Gillard'],"['Tia Mowry', 'Tamera Mowry-Housley', 'Kristen Wilson', 'Patrick Fabian']",2000
+Chicken Little,2005,5.7,81,G,"Animation, Adventure, Comedy",98877,['Mark Dindal'],"['Zach Braff', 'Joan Cusack', 'Garry Marshall', 'Don Knotts']",2000
+The Greatest Game Ever Played,2005,7.4,120,PG,"Biography, Drama, Sport",32866,['Bill Paxton'],"['Shia LaBeouf', 'Stephen Dillane', 'Elias Koteas', 'James Paxton']",2000
+The Proud Family Movie,2005,5.3,90,TV-G,"Animation, Adventure, Comedy",2016,['Bruce W. Smith'],"['Tommy Davidson', 'Kyla Pratt', 'Paula Jai Parker', 'Jo Marie Payton']",2000
+Lilo & Stitch 2: Stitch Has a Glitch,2005,6.2,68,PG,"Animation, Comedy, Drama",16884,"['Michael LaBash', 'Tony Leondis']","['Chris Sanders', 'Dakota Fanning', 'Tia Carrere', 'David Ogden Stiers']",2000
+Sky High,2005,6.3,100,PG,"Action, Comedy, Family",93036,['Mike Mitchell'],"['Kurt Russell', 'Kelly Preston', 'Michael Angarano', 'Danielle Panabaker']",2000
+Herbie Fully Loaded,2005,4.9,101,G,"Adventure, Comedy, Family",50122,['Angela Robinson'],"['Lindsay Lohan', 'Michael Keaton', 'Cheryl Hines', 'Breckin Meyer']",2000
+Tarzan II,2005,5.5,72,G,"Animation, Adventure, Comedy",12190,['Brian Smith'],"['Harrison Chad', 'George Carlin', 'Brad Garrett', 'Ron Perlman']",2000
+The Cheetah Girls 2,2005,5.0,96,TV-G,"Comedy, Drama, Family",6805,['Kenny Ortega'],"['Raven-Symoné', 'Adrienne Houghton', 'Sabrina Bryan', 'Kiely Williams']",2000
+The Muppets' Wizard of Oz,2005,5.1,120,TV-PG,"Adventure, Comedy, Family",3834,['Kirk R. Thatcher'],"['Ashanti', 'Jeffrey Tambor', 'Quentin Tarantino', 'David Alan Grier']",2000
+Kim Possible: So the Drama,2005,7.1,71,TV-G,"Animation, Action, Adventure",4923,['Steve Loter'],"['Christy Carlson Romano', 'Will Friedle', 'Nancy Cartwright', 'Tahj Mowry']",2000
+Valiant,2005,5.5,76,G,"Animation, Adventure, Comedy",24083,['Gary Chapman'],"['Ewan McGregor', 'Ricky Gervais', 'Tim Curry', 'Jim Broadbent']",2000
+Ice Princess,2005,6.0,98,G,"Comedy, Drama, Family",28548,['Tim Fywell'],"['Michelle Trachtenberg', 'Kim Cattrall', 'Trevor Blumas', 'Joan Cusack']",2000
+The Pacifier,2005,5.6,95,PG,"Action, Comedy, Drama",99406,['Adam Shankman'],"['Vin Diesel', 'Brittany Snow', 'Max Thieriot', 'Brad Garrett']",2000
+Aliens of the Deep,2005,6.3,100,G,"Documentary, Family",3357,"['James Cameron', 'Steven Quale']","['James Cameron', 'Anatoly M. Sagalevitch', 'Genya Chernaiev', 'Victor Nischeta']",2000
+Mickey's Twice Upon a Christmas,2004,6.4,68,G,"Animation, Comedy, Family",5671,"['Theresa Cullen', 'Carole Holliday', 'Peggy Holmes', ""Matthew O'Callaghan""]","['Wayne Allwine', 'Tony Anselmo', 'Jeff Bennett', 'Jim Cummings']",2000
+National Treasure,2004,6.9,131,PG,"Action, Adventure, Mystery",349115,['Jon Turteltaub'],"['Nicolas Cage', 'Diane Kruger', 'Justin Bartha', 'Sean Bean']",2000
+Mulan II,2004,5.6,79,G,"Animation, Adventure, Comedy",28493,"['Darrell Rooney', 'Lynne Southerland']","['Ming-Na Wen', 'BD Wong', 'Mark Moseley', 'Lucy Liu']",2000
+The Incredibles,2004,8.0,115,PG,"Animation, Action, Adventure",787429,['Brad Bird'],"['Craig T. Nelson', 'Samuel L. Jackson', 'Holly Hunter', 'Jason Lee']",2000
+The Incredibles,2004,8.0,115,PG,"Animation, Action, Adventure",787429,['Brad Bird'],"['Craig T. Nelson', 'Samuel L. Jackson', 'Holly Hunter', 'Jason Lee']",2000
+Halloweentown High,2004,6.0,82,TV-G,"Comedy, Family, Fantasy",8406,['Mark A.Z. Dippé'],"['Kimberly J. Brown', 'Debbie Reynolds', 'Judith Hoag', 'Joey Zimmerman']",2000
+The Princess Diaries 2: Royal Engagement,2004,5.8,113,G,"Comedy, Family, Romance",87157,['Garry Marshall'],"['Anne Hathaway', 'Callum Blue', 'Julie Andrews', 'Hector Elizondo']",2000
+"Mickey, Donald, Goofy: The Three Musketeers",2004,6.4,67,G,"Animation, Adventure, Comedy",11337,['Donovan Cook'],"['Wayne Allwine', 'Tony Anselmo', 'Bill Farmer', 'Russi Taylor']",2000
+Around the World in 80 Days,2004,5.8,120,PG,"Action, Adventure, Comedy",93681,['Frank Coraci'],"['Jackie Chan', 'Steve Coogan', 'Jim Broadbent', 'Kathy Bates']",2000
+America's Heart & Soul,2004,5.1,84,PG,Documentary,715,['Louie Schwartzberg'],"['George Woodard', 'Charles Jimmie Sr.', 'The Vasquez Brothers', 'Frank Pino']",2000
+Home on the Range,2004,5.4,76,PG,"Animation, Adventure, Comedy",25322,"['Will Finn', 'John Sanford']","['Judi Dench', 'Cuba Gooding Jr.', 'Jennifer Tilly', 'Randy Quaid']",2000
+Winnie the Pooh: Springtime with Roo,2004,6.3,65,G,"Animation, Adventure, Comedy",2526,"['Saul Blinkoff', 'Elliot M. Bour']","['Jim Cummings', 'Ken Sansom', 'Jimmy Bennett', 'David Ogden Stiers']",2000
+Confessions of a Teenage Drama Queen,2004,4.7,89,PG,"Comedy, Family, Music",30828,['Sara Sugarman'],"['Lindsay Lohan', 'Megan Fox', 'Adam Garcia', 'Glenne Headly']",2000
+The Lion King 1½,2004,6.5,77,G,"Animation, Adventure, Comedy",44932,['Bradley Raymond'],"['Nathan Lane', 'Ernie Sabella', 'Julie Kavner', 'Jerry Stiller']",2000
+Teacher's Pet,2004,5.7,73,PG,"Animation, Adventure, Comedy",1915,['Timothy Björklund'],"['Nathan Lane', 'Shaun Fleming', 'David Ogden Stiers', 'Kelsey Grammer']",2000
+Recess: All Growed Down,2003,6.3,61,G,"Animation, Comedy, Family",943,"['Howy Parkins', 'Chuck Sheetz']","[""Rickey D'Shon Collins"", 'Jason Davis', 'Ashley Johnson', 'Myles Jeffrey']",2000
+The Young Black Stallion,2003,5.4,50,G,"Adventure, Drama, Family",1291,['Simon Wincer'],"['Biana Tamimi', 'Richard Romanus', 'Patrick Elyas', 'Gérard Rudolf']",2000
+Kim Possible: A Sitch in Time,2003,7.0,66,TV-G,"Animation, Adventure, Comedy",4813,['Steve Loter'],"['Christy Carlson Romano', 'Will Friedle', 'Nancy Cartwright', 'Tahj Mowry']",2000
+The Haunted Mansion,2003,5.2,88,PG,"Comedy, Family, Fantasy",55975,['Rob Minkoff'],"['Eddie Murphy', 'Marsha Thomason', 'Jennifer Tilly', 'Terence Stamp']",2000
+Lilo & Stitch's Island of Adventures,2003,6.2,45,,Animation,99,['nan'],,2000
+Brother Bear,2003,6.8,85,G,"Animation, Adventure, Comedy",120664,"['Aaron Blaise', 'Robert Walker']","['Joaquin Phoenix', 'Jeremy Suarez', 'Rick Moranis', 'Jason Raize']",2000
+George of the Jungle 2,2003,3.3,87,PG,"Adventure, Comedy, Family",7741,['David Grossman'],"['Christopher Showerman', 'Julie Benz', 'Angus T. Jones', 'Thomas Haden Church']",2000
+The Cheetah Girls,2003,4.8,100,TV-G,"Comedy, Drama, Family",8646,['Oz Scott'],"['Raven-Symoné', 'Adrienne Houghton', 'Kiely Williams', 'Sabrina Bryan']",2000
+Freaky Friday,2003,6.3,97,PG,"Comedy, Family, Fantasy",149289,['Mark Waters'],"['Jamie Lee Curtis', 'Lindsay Lohan', 'Mark Harmon', 'Harold Gould']",2000
+Pirates of the Caribbean: The Curse of the Black Pearl,2003,8.1,143,PG-13,"Action, Adventure, Fantasy",1184536,['Gore Verbinski'],"['Johnny Depp', 'Geoffrey Rush', 'Orlando Bloom', 'Keira Knightley']",2000
+The Even Stevens Movie,2003,6.2,93,TV-G,"Comedy, Family",7380,['Sean McNamara'],"['Shia LaBeouf', 'Christy Carlson Romano', 'Donna Pescow', 'Tom Virtue']",2000
+William Joyce's Rolie Polie Olie: The Baby Bot Chase,2003,7.1,70,G,"Animation, Adventure, Comedy",73,"['Ron Pitts', 'Mike Fallows']","['Richard Binsley', 'Kristen Bone', 'Rebecca Brenner', 'Cole Caplan']",2000
+Finding Nemo,2003,8.2,100,G,"Animation, Adventure, Comedy",1091925,"['Andrew Stanton', 'Lee Unkrich']","['Albert Brooks', 'Ellen DeGeneres', 'Alexander Gould', 'Willem Dafoe']",2000
+The Lizzie McGuire Movie,2003,5.5,94,PG,"Adventure, Comedy, Family",41525,['Jim Fall'],"['Hilary Duff', 'Adam Lamberg', 'Clayton Snyder', 'Hallie Todd']",2000
+Holes,2003,7.0,117,PG,"Adventure, Comedy, Drama",97598,['Andrew Davis'],"['Shia LaBeouf', 'Sigourney Weaver', 'Jon Voight', 'Tim Blake Nelson']",2000
+Ghosts of the Abyss,2003,6.8,61,G,"Documentary, Family",6292,['James Cameron'],"['Bill Paxton', 'Lori Johnston', 'Lewis Abernathy', 'John Broadwater']",2000
+Inspector Gadget 2,2003,3.5,89,G,"Action, Comedy, Crime",6919,['Alex Zamm'],"['French Stewart', 'Elaine Hendrix', 'Tony Martin', 'Caitlin Wachs']",2000
+Atlantis: Milo's Return,2003,5.0,70,G,"Animation, Action, Adventure",10753,"['Victor Cook', 'Toby Shelton', 'Tad Stones']","['James Arnold Taylor', 'Cree Summer', 'John Mahoney', 'Jacqueline Obradors']",2000
+The Music Man,2003,6.2,150,TV-G,"Comedy, Family, Musical",2162,['Jeff Bleckner'],"['Matthew Broderick', 'Kristin Chenoweth', 'Victor Garber', 'Debra Monk']",2000
+Winnie the Pooh: A Very Merry Pooh Year,2002,6.6,65,G,"Animation, Comedy, Drama",2900,"['Gary Katona', 'Ed Wexler', 'Jamie Mitchell']","['Jim Cummings', 'Peter Cullen', 'John Fiedler', 'Michael Gough']",2000
+Treasure Planet,2002,7.2,95,PG,"Animation, Adventure, Family",129543,"['Ron Clements', 'John Musker']","['Joseph Gordon-Levitt', 'Emma Thompson', 'Martin Short', 'Roscoe Lee Browne']",2000
+101 Dalmatians 2: Patch's London Adventure,2002,5.7,74,G,"Animation, Adventure, Comedy",10385,"['Jim Kammerud', 'Brian Smith']","['Barry Bostwick', 'Jason Alexander', 'Martin Short', 'Bobby Lockwood']",2000
+The Santa Clause 2,2002,5.7,104,G,"Comedy, Family, Fantasy",61995,['Michael Lembeck'],"['Tim Allen', 'Spencer Breslin', 'Elizabeth Mitchell', 'Eric Lloyd']",2000
+Tuck Everlasting,2002,6.6,90,PG,"Drama, Family, Fantasy",25049,['Jay Russell'],"['Alexis Bledel', 'Jonathan Jackson', 'Sissy Spacek', 'William Hurt']",2000
+Rolie Polie Olie: The Great Defender of Fun,2002,6.2,75,G,"Animation, Adventure, Comedy",187,"['Ron Pitts', 'Mike Fallows']","['James Woods', 'Kyle Fairlie', 'Joshua Tucci', 'Kristen Bone']",2000
+The Country Bears,2002,4.2,88,G,"Comedy, Family, Music",5998,['Peter Hastings'],"['Haley Joel Osment', 'Diedrich Bader', 'Candy Ford', 'James Gammon']",2000
+Get a Clue,2002,5.1,83,TV-G,"Comedy, Crime, Family",7091,['Maggie Greenwald'],"['Lindsay Lohan', 'Bug Hall', 'Ian Gomez', 'Brenda Song']",2000
+Lilo & Stitch,2002,7.3,85,PG,"Animation, Adventure, Comedy",206524,"['Dean DeBlois', 'Chris Sanders']","['Daveigh Chase', 'Chris Sanders', 'Tia Carrere', 'David Ogden Stiers']",2000
+The Rookie,2002,6.9,127,G,"Drama, Family, Sport",36618,['John Lee Hancock'],"['Dennis Quaid', 'JD Evermore', 'Rachel Griffiths', 'Jay Hernandez']",2000
+Cadet Kelly,2002,5.5,101,TV-G,"Comedy, Drama, Family",15178,['Larry Shaw'],"['Hilary Duff', 'Christy Carlson Romano', 'Gary Cole', 'Shawn Ashmore']",2000
+The Hunchback of Notre Dame II,2002,4.6,68,G,"Animation, Adventure, Comedy",7715,['Bradley Raymond'],"['Jason Alexander', 'Jennifer Love Hewitt', 'Tom Hulce', 'Paul Kandel']",2000
+Snow Dogs,2002,5.2,99,PG,"Adventure, Comedy, Family",28191,['Brian Levant'],"['Cuba Gooding Jr.', 'James Coburn', 'Sisqó', 'Nichelle Nichols']",2000
+Cinderella II: Dreams Come True,2001,5.0,73,G,"Animation, Family, Fantasy",13328,['John Kafka'],"['Jennifer Hale', 'Rob Paulsen', 'Corey Burton', 'Andre Stojka']",2000
+The Other Side of Heaven,2001,6.3,113,PG,"Adventure, Biography, Drama",4649,['Mitch Davis'],"['Christopher Gorham', 'Anne Hathaway', 'Joe Folau', 'Nathaniel Lees']",2000
+"Monsters, Inc.",2001,8.1,92,G,"Animation, Adventure, Comedy",957995,"['Pete Docter', 'David Silverman', 'Lee Unkrich']","['Billy Crystal', 'John Goodman', 'Mary Gibbs', 'Steve Buscemi']",2000
+Halloweentown II: Kalabar's Revenge,2001,6.3,81,TV-PG,"Adventure, Family, Fantasy",10400,['Mary Lambert'],"['Kimberly J. Brown', 'Judith Hoag', 'Daniel Kountz', 'Joey Zimmerman']",2000
+Max Keeble's Big Move,2001,5.4,86,PG,"Comedy, Crime, Family",8569,['Tim Hill'],"['Alex D. Linz', 'Larry Miller', 'Jamie Kennedy', 'Zena Grey']",2000
+Jumping Ship,2001,6.0,93,TV-G,"Adventure, Comedy, Drama",2042,['Michael Lange'],"['Joey Lawrence', 'Matthew Lawrence', 'Andrew Lawrence', 'Susan Walters']",2000
+The Princess Diaries,2001,6.4,115,G,"Comedy, Family, Romance",159384,['Garry Marshall'],"['Julie Andrews', 'Anne Hathaway', 'Hector Elizondo', 'Heather Matarazzo']",2000
+Atlantis: The Lost Empire,2001,6.9,95,PG,"Animation, Action, Adventure",130668,"['Gary Trousdale', 'Kirk Wise']","['Michael J. Fox', 'Jim Varney', 'Corey Burton', 'Claudia Christian']",2000
+"The Wonderful World of Disney (1997–2023)
+Princess of Thieves",1997,5.6,88,Not Rated,"Adventure, Comedy, Drama",4620,['Peter Hewitt'],"['Hannah Cresswell', 'David Barrass', 'Malcolm McDowell', 'Keira Knightley']",1990
+Lady and the Tramp II: Scamp's Adventure,2001,5.7,69,G,"Animation, Adventure, Comedy",12927,"['Darrell Rooney', 'Jeannine Roussel']","['Scott Wolf', 'Alyssa Milano', 'Chazz Palminteri', 'Jeff Bennett']",2000
+Recess: School's Out,2001,6.5,82,G,"Animation, Adventure, Comedy",11453,['Chuck Sheetz'],"['Andrew Lawrence', ""Rickey D'Shon Collins"", 'Jason Davis', 'Ashley Johnson']",2000
+The Emperor's New Groove,2000,7.4,78,G,"Animation, Adventure, Comedy",219897,['Mark Dindal'],"['David Spade', 'John Goodman', 'Eartha Kitt', 'Patrick Warburton']",2000
+102 Dalmatians,2000,4.8,100,G,"Adventure, Comedy, Family",39121,['Kevin Lima'],"['Glenn Close', 'Gérard Depardieu', 'Ioan Gruffudd', 'Alice Evans']",2000
+"The Wonderful World of Disney (1997–2023)
+The Miracle Worker",1997,7.1,95,TV-PG,"Adventure, Comedy, Drama",1744,['Nadia Tass'],"['Alison Elliott', 'Hallie Eisenberg', 'Lucas Black', 'Kate Greenhouse']",1990
+Remember the Titans,2000,7.8,113,PG,"Biography, Drama, Sport",227916,['Boaz Yakin'],"['Denzel Washington', 'Will Patton', 'Wood Harris', 'Ryan Hurst']",2000
+Dinosaur,2000,6.4,82,PG,"Animation, Adventure, Drama",65782,"['Eric Leighton', 'Ralph Zondag']","['D.B. Sweeney', 'Julianna Margulies', 'Samuel E. Wright', 'Alfre Woodard']",2000
+Miracle in Lane 2,2000,5.9,120,G,"Biography, Comedy, Drama",2296,['Greg Beeman'],"['Frankie Muniz', 'Rick Rossovich', 'Molly Hagan', 'Patrick Levis']",2000
+The Little Mermaid II: Return to the Sea,2000,5.5,75,G,"Animation, Adventure, Comedy",21808,"['Jim Kammerud', 'Brian Smith', 'Bill Speers']","['Tara Strong', 'Pat Carroll', 'Jodi Benson', 'Samuel E. Wright']",2000
+Whispers: An Elephant's Tale,2000,5.0,72,G,"Adventure, Family",407,['Dereck Joubert'],"['Angela Bassett', 'Joanna Lumley', 'Anne Archer', 'Debi Derryberry']",2000
+An Extremely Goofy Movie,2000,6.3,79,G,"Animation, Comedy, Family",14120,['Douglas McCarthy'],"['Bill Farmer', 'Jason Marsden', 'Jeff Bennett', 'Jim Cummings']",2000
+The Tigger Movie,2000,6.3,77,G,"Animation, Adventure, Comedy",20042,['Jun Falkenstein'],"['Jim Cummings', 'Nikita Hopkins', 'Ken Sansom', 'John Fiedler']",2000
+Fantasia 2000,1999,7.1,75,G,"Animation, Family, Fantasy",40752,"['James Algar', 'Gaëtan Brizzi', 'Paul Brizzi', 'Hendel Butoy', 'Francis Glebas', 'Eric Goldberg', 'Don Hahn', 'Pixote Hunt']","['James Levine', 'Steve Martin', 'Itzhak Perlman', 'Quincy Jones']",1990
+Toy Story 2,1999,7.9,92,G,"Animation, Adventure, Comedy",608824,"['John Lasseter', 'Ash Brannon', 'Lee Unkrich']","['Tom Hanks', 'Tim Allen', 'Joan Cusack', 'Kelsey Grammer']",1990
+"The Wonderful World of Disney (1997–2023)
+Annie",1997,6.7,90,Unrated,"Adventure, Comedy, Drama",5719,['Rob Marshall'],"['Kathy Bates', 'Alan Cumming', 'Audra McDonald', 'Kristin Chenoweth']",1990
+Mickey's Once Upon a Christmas,1999,7.0,66,Not Rated,"Animation, Comedy, Family",9853,"['Jun Falkenstein', 'Alex Mann', 'Bradley Raymond', 'Toby Shelton', 'Bill Speers']","['Kelsey Grammer', 'Wayne Allwine', 'Russi Taylor', 'Tony Anselmo']",1990
+Inspector Gadget,1999,4.2,78,PG,"Action, Adventure, Comedy",50305,['David Kellogg'],"['Matthew Broderick', 'Rupert Everett', 'Joely Fisher', 'Michelle Trachtenberg']",1990
+Smart House,1999,6.1,82,TV-G,"Comedy, Drama, Family",8085,['LeVar Burton'],"['Katey Sagal', 'Ryan Merriman', 'Katie Volding', 'Kevin Kilner']",1990
+Tarzan,1999,7.3,88,G,"Animation, Adventure, Comedy",241933,"['Chris Buck', 'Kevin Lima']","['Tony Goldwyn', 'Minnie Driver', 'Brian Blessed', 'Glenn Close']",1990
+The Straight Story,1999,8.0,112,G,"Biography, Drama",95575,['David Lynch'],"['Richard Farnsworth', 'Sissy Spacek', 'Jane Galloway Heitz', 'Joseph A. Carpenter']",1990
+Balloon Farm,1999,5.4,92,TV-G,"Comedy, Family, Fantasy",382,['William Dear'],"['Rip Torn', 'Mara Wilson', 'Roberts Blossom', 'Fredric Lehne']",1990
+My Favorite Martian,1999,5.1,94,PG,"Comedy, Family, Sci-Fi",14262,['Donald Petrie'],"['Christopher Lloyd', 'Jeff Daniels', 'Elizabeth Hurley', 'Daryl Hannah']",1990
+Mighty Joe Young,1998,5.7,114,PG,"Action, Adventure, Family",30394,['Ron Underwood'],"['Bill Paxton', 'Charlize Theron', 'Rade Serbedzija', 'Peter Firth']",1990
+A Bug's Life,1998,7.2,95,G,"Animation, Adventure, Comedy",308868,"['John Lasseter', 'Andrew Stanton']","['Kevin Spacey', 'David Foley', 'Julia Louis-Dreyfus', 'Hayden Panettiere']",1990
+I'll Be Home for Christmas,1998,5.5,86,PG,"Comedy, Family",11415,['Arlene Sanford'],"['Jonathan Taylor Thomas', 'Jessica Biel', 'Adam LaVorgna', 'Gary Cole']",1990
+The Lion King II: Simba's Pride,1998,6.4,81,G,"Animation, Adventure, Drama",73840,"['Darrell Rooney', 'Rob LaDuca']","['Matthew Broderick', 'Neve Campbell', 'Andy Dick', 'Robert Guillaume']",1990
+Halloweentown,1998,6.6,84,TV-G,"Adventure, Comedy, Family",20959,['Duwayne Dunham'],"['Debbie Reynolds', 'Kimberly J. Brown', 'Judith Hoag', 'Joey Zimmerman']",1990
+Endurance,1998,6.3,83,G,"Biography, Drama, Sport",439,"['Leslie Woodhead', 'Bud Greenspan']","['Haile Gebrselassie', 'Shawananness Gebrselassie', 'Yonas Zergaw', 'Tedesse Haile']",1990
+Pocahontas 2: Journey to a New World (1998) (V),1998,4.8,73,G,"Animation, Adventure, Drama",16846,"['Tom Ellery', 'Bradley Raymond']","['Irene Bedard', 'Donal Gibson', 'Jim Cummings', 'Finola Hughes']",1990
+The Parent Trap,1998,6.6,128,PG,"Adventure, Comedy, Drama",150562,['Nancy Meyers'],"['Lindsay Lohan', 'Dennis Quaid', 'Natasha Richardson', 'Elaine Hendrix']",1990
+Mulan,1998,7.7,87,G,"Animation, Adventure, Comedy",308624,"['Tony Bancroft', 'Barry Cook']","['Ming-Na Wen', 'Eddie Murphy', 'BD Wong', 'Miguel Ferrer']",1990
+The Brave Little Toaster Goes to Mars,1998,5.5,73,Not Rated,"Animation, Adventure, Family",1768,"['Robert C. Ramirez', 'Patrick A. Ventura']","['Thurl Ravenscroft', 'Deanna Oliver', 'Eric Lloyd', 'Timothy Stack']",1990
+Meet the Deedles,1998,4.1,93,PG,"Comedy, Family, Sport",3137,['Steve Boyum'],"['Paul Walker', 'Steve Van Wormer', 'A.J. Langer', 'John Ashton']",1990
+"The Wonderful World of Disney (1997–2023)
+Ruby Bridges",1997,7.1,96,TV-PG,"Adventure, Comedy, Drama",1145,['Euzhan Palcy'],"['Penelope Ann Miller', 'Kevin Pollak', 'Michael Beach', 'Jean Louisa Kelly']",1990
+Mr. Magoo,1997,4.0,87,PG,"Adventure, Comedy, Family",15965,['Stanley Tong'],"['Leslie Nielsen', 'Kelly Lynch', 'Matt Keeslar', 'Nick Chinlund']",1990
+Flubber,1997,5.3,93,PG,"Comedy, Family, Sci-Fi",93447,['Les Mayfield'],"['Robin Williams', 'Marcia Gay Harden', 'Christopher McDonald', 'Ted Levine']",1990
+"The Wonderful World of Disney (1997–2023)
+Oliver Twist",1997,6.2,91,Unrated,"Adventure, Comedy, Drama",1888,['Tony Bill'],"['Richard Dreyfuss', 'Elijah Wood', ""David O'Hara"", 'Alex Trench']",1990
+Beauty and the Beast: The Enchanted Christmas,1997,5.9,72,G,"Animation, Family, Fantasy",11675,['Andrew Knight'],"[""Paige O'Hara"", 'Robby Benson', 'Jerry Orbach', 'David Ogden Stiers']",1990
+"The Wonderful World of Disney (1997–2023)
+Angels in the Endzone",1997,4.7,88,Unrated,"Adventure, Comedy, Drama",1076,['Gary Nadeau'],"['Paul Dooley', 'Matthew Lawrence', 'David Gallagher', 'Jack Coleman']",1990
+"The Wonderful World of Disney (1997–2023)
+Tower of Terror",1997,6.1,89,Unrated,"Adventure, Comedy, Drama",4062,['D.J. MacHale'],"['Steve Guttenberg', 'Kirsten Dunst', 'Nia Peeples', 'Michael McShane']",1990
+RocketMan,1997,5.9,95,PG,"Comedy, Family, Sci-Fi",10239,['Stuart Gillard'],"['Harland Williams', 'Jessica Lundy', 'William Sadler', 'Jeffrey DeMunn']",1990
+"The Wonderful World of Disney (1997–2023)
+Toothless",1997,5.8,92,TV-G,"Adventure, Comedy, Drama",2311,['Melanie Mayron'],"['Kirstie Alley', 'Dale Midkiff', 'Ross Malinger', 'Daryl Mitchell']",1990
+George of the Jungle,1997,5.5,92,PG,"Action, Adventure, Comedy",83144,['Sam Weisman'],"['Brendan Fraser', 'Leslie Mann', 'Thomas Haden Church', 'Richard Roundtree']",1990
+Hercules,1997,7.3,93,G,"Animation, Adventure, Comedy",249025,"['Ron Clements', 'John Musker']","['Tate Donovan', 'Susan Egan', 'James Woods', 'Barbara Barrie']",1990
+The Brave Little Toaster to the Rescue,1997,6.1,74,Not Rated,"Animation, Adventure, Family",1798,"['Robert C. Ramirez', 'Patrick A. Ventura']","['Jessica Tuck', 'Chris Young', 'Roger Kabler', 'Deanna Oliver']",1990
+"Honey, We Shrunk Ourselves!",1997,5.0,74,PG,"Action, Adventure, Comedy",16558,['Dean Cundey'],"['Rick Moranis', 'Eve Gordon', 'Bug Hall', 'Robin Bartlett']",1990
+Jungle 2 Jungle,1997,5.2,105,PG,"Comedy, Family",25525,['John Pasquin'],"['Tim Allen', 'Martin Short', 'JoBeth Williams', 'Lolita Davidovich']",1990
+That Darn Cat,1997,4.7,89,PG,"Action, Comedy, Crime",4781,['Bob Spiers'],"['Christina Ricci', 'Doug E. Doug', 'Dean Jones', 'George Dzundza']",1990
+101 Dalmatians,1996,5.7,103,G,"Adventure, Comedy, Crime",115958,['Stephen Herek'],"['Glenn Close', 'Jeff Daniels', 'Joely Richardson', 'Joan Plowright']",1990
+Mr. Toad's Wild Ride,1996,6.3,88,PG,"Adventure, Comedy, Family",3396,['Terry Jones'],"['Steve Coogan', 'Eric Idle', 'Terry Jones', 'Antony Sher']",1990
+D3: The Mighty Ducks,1996,5.5,104,PG,"Action, Comedy, Drama",28232,['Robert Lieberman'],"['Emilio Estevez', 'Jeffrey Nordling', 'David Selby', 'Heidi Kling']",1990
+First Kid,1996,5.2,101,PG,"Comedy, Family",11403,['David Mickey Evans'],"['Sinbad', 'Brock Pierce', 'Blake Boyd', 'Timothy Busfield']",1990
+Aladdin and the King of Thieves,1996,6.3,81,Not Rated,"Animation, Adventure, Comedy",37503,['Tad Stones'],"['Scott Weinger', 'Robin Williams', 'John Rhys-Davies', 'Val Bettin']",1990
+The Hunchback of Notre Dame,1996,7.0,91,G,"Animation, Drama, Family",168365,"['Gary Trousdale', 'Kirk Wise']","['Demi Moore', 'Jason Alexander', 'Mary Kay Bergman', 'Corey Burton']",1990
+James and the Giant Peach,1996,6.7,79,PG,"Animation, Adventure, Family",72893,['Henry Selick'],"['Paul Terry', 'Joanna Lumley', 'Pete Postlethwaite', 'Simon Callow']",1990
+Homeward Bound II: Lost in San Francisco,1996,5.9,88,G,"Adventure, Comedy, Family",15985,['David R. Ellis'],"['Michael J. Fox', 'Sally Field', 'Ralph Waite', 'Al Michaels']",1990
+Muppet Treasure Island,1996,6.9,99,G,"Action, Adventure, Comedy",25943,"['Brian Henson', 'David Lane']","['Tim Curry', 'Billy Connolly', 'Jennifer Saunders', 'Kevin Bishop']",1990
+Tom and Huck,1995,5.5,97,PG,"Adventure, Comedy, Drama",11462,['Peter Hewitt'],"['Jonathan Taylor Thomas', 'Brad Renfro', 'Charles Rocket', 'Eric Schweig']",1990
+Toy Story,1995,8.3,81,G,"Animation, Adventure, Comedy",1046694,['John Lasseter'],"['Tom Hanks', 'Tim Allen', 'Don Rickles', 'Jim Varney']",1990
+The Big Green,1995,5.5,100,PG,"Comedy, Family, Sport",10782,['Holly Goldberg Sloan'],"['Steve Guttenberg', ""Olivia d'Abo"", 'Jay O. Sanders', 'John Terry']",1990
+Frank and Ollie,1995,7.6,89,PG,Documentary,1055,['Theodore Thomas'],"['Frank Thomas', 'Ollie Johnston', 'Sylvia Roemer', 'John Canemaker']",1990
+A Kid in King Arthur's Court,1995,4.7,89,PG,"Adventure, Comedy, Family",6640,['Michael Gottlieb'],"['Thomas Ian Nicholas', 'Joss Ackland', 'Art Malik', 'Paloma Baeza']",1990
+Operation Dumbo Drop,1995,5.2,107,PG,"Action, Adventure, Comedy",9592,['Simon Wincer'],"['Danny Glover', 'Ray Liotta', 'Denis Leary', 'Doug E. Doug']",1990
+Pocahontas,1995,6.7,81,G,"Animation, Adventure, Drama",199245,"['Mike Gabriel', 'Eric Goldberg']","['Mel Gibson', 'Linda Hunt', 'Christian Bale', 'Joe Baker']",1990
+A Goofy Movie,1995,6.9,78,G,"Animation, Adventure, Comedy",61015,['Kevin Lima'],"['Bill Farmer', 'Jason Marsden', 'Jim Cummings', 'Kellie Martin']",1990
+Heavyweights,1995,6.6,100,PG,"Comedy, Drama, Family",30076,['Steven Brill'],"['Tom McGowan', 'Aaron Schwartz', 'Ben Stiller', 'David Goldman']",1990
+The Santa Clause,1994,6.5,97,PG,"Comedy, Drama, Family",127973,['John Pasquin'],"['Tim Allen', 'Judge Reinhold', 'Wendy Crewson', 'Eric Lloyd']",1990
+Squanto: A Warrior's Tale,1994,6.0,102,PG,"Adventure, Biography, Drama",1390,['Xavier Koller'],"['Adam Beach', 'Mandy Patinkin', 'Sheldon Peters Wolfchild', 'Irene Bedard']",1990
+Angels in the Outfield,1994,6.2,102,PG,"Comedy, Drama, Family",33845,['William Dear'],"['Danny Glover', 'Brenda Fricker', 'Tony Danza', 'Christopher Lloyd']",1990
+The Lion King,1994,8.5,88,G,"Animation, Adventure, Drama",1116524,"['Roger Allers', 'Rob Minkoff']","['Matthew Broderick', 'Jeremy Irons', 'James Earl Jones', 'Whoopi Goldberg']",1990
+The Return of Jafar,1994,5.8,69,G,"Animation, Adventure, Comedy",30902,"['Toby Shelton', 'Tad Stones', 'Alan Zaslove']","['Jonathan Freeman', 'Scott Weinger', 'Dan Castellaneta', 'Jason Alexander']",1990
+White Fang 2: Myth of the White Wolf,1994,5.4,106,PG,"Adventure, Family",2475,['Ken Olin'],"['Scott Bairstow', 'Charmaine Craig', 'Al Harrington', 'Anthony Ruivivar']",1990
+D2: The Mighty Ducks,1994,6.1,106,PG,"Comedy, Drama, Family",42399,['Sam Weisman'],"['Emilio Estevez', 'Kathryn Erbe', 'Michael Tucker', 'Jan Rubes']",1990
+Blank Check,1994,5.3,93,PG,"Comedy, Crime, Family",21721,['Rupert Wainwright'],"['Brian Bonsall', 'Karen Duffy', 'James Rebhorn', 'Jayne Atkinson']",1990
+Iron Will,1994,6.6,108,PG,"Adventure, Family",9202,['Charles Haid'],"['Mackenzie Astin', 'Kevin Spacey', 'David Ogden Stiers', 'August Schellenberg']",1990
+The Three Musketeers,1993,6.4,105,PG,"Action, Adventure, Romance",58232,['Stephen Herek'],"['Charlie Sheen', 'Kiefer Sutherland', ""Chris O'Donnell"", 'Oliver Platt']",1990
+The Nightmare Before Christmas,1993,7.9,76,PG,"Animation, Family, Fantasy",366817,['Henry Selick'],"['Danny Elfman', 'Chris Sarandon', ""Catherine O'Hara"", 'William Hickey']",1990
+Cool Runnings,1993,7.0,98,PG,"Adventure, Comedy, Family",111315,['Jon Turteltaub'],"['John Candy', 'Leon', 'Doug E. Doug', 'Rawle D. Lewis']",1990
+Hocus Pocus,1993,6.9,96,PG,"Comedy, Family, Fantasy",154190,['Kenny Ortega'],"['Bette Midler', 'Sarah Jessica Parker', 'Kathy Najimy', 'Omri Katz']",1990
+The Adventures of Huck Finn,1993,6.2,108,PG,"Adventure, Comedy, Drama",9099,['Stephen Sommers'],"['Elijah Wood', 'Courtney B. Vance', 'Robbie Coltrane', 'Jason Robards']",1990
+A Far Off Place,1993,6.5,108,PG,"Adventure, Drama, Family",3754,['Mikael Salomon'],"['Reese Witherspoon', 'Ethan Embry', 'Jack Thompson', 'Sarel Bok']",1990
+Homeward Bound: The Incredible Journey,1993,6.9,84,G,"Adventure, Comedy, Drama",50174,['Duwayne Dunham'],"['Michael J. Fox', 'Sally Field', 'Don Alder', 'Ed Bernard']",1990
+The Very Hungry Caterpillar and Other Stories,1993,7.7,31,,Animation,66,['Andrew Goff'],"['Brian Cummings', 'Linda Gary', 'Jonathan Benair', 'Rob Gibbs']",1990
+The Muppet Christmas Carol,1992,7.7,85,G,"Comedy, Drama, Family",65636,['Brian Henson'],"['Michael Caine', 'Dave Goelz', 'Steve Whitmire', 'Jerry Nelson']",1990
+Aladdin,1992,8.0,90,G,"Animation, Adventure, Comedy",454139,"['Ron Clements', 'John Musker']","['Scott Weinger', 'Robin Williams', 'Linda Larkin', 'Jonathan Freeman']",1990
+The Mighty Ducks,1992,6.5,104,PG,"Comedy, Drama, Family",70463,['Stephen Herek'],"['Emilio Estevez', 'Joss Ackland', 'Lane Smith', 'Heidi Kling']",1990
+"Honey, I Blew Up the Kid",1992,4.9,89,PG,"Adventure, Comedy, Family",46219,['Randal Kleiser'],"['Rick Moranis', 'Marcia Strassman', 'Robert Oliveri', 'Daniel Shalikar']",1990
+Newsies,1992,6.9,121,PG,"Drama, Family, History",22161,['Kenny Ortega'],"['Christian Bale', 'Bill Pullman', 'Robert Duvall', 'Ann-Margret']",1990
+Beauty and the Beast,1991,8.0,84,G,"Animation, Family, Fantasy",473134,"['Gary Trousdale', 'Kirk Wise']","[""Paige O'Hara"", 'Robby Benson', 'Jesse Corti', 'Rex Everhart']",1990
+The Rocketeer,1991,6.6,108,PG,"Action, Adventure, Family",60854,['Joe Johnston'],"['Billy Campbell', 'Jennifer Connelly', 'Alan Arkin', 'Timothy Dalton']",1990
+Wild Hearts Can't Be Broken,1991,7.2,88,G,"Drama, Family, Romance",5726,['Steve Miner'],"['Gabrielle Anwar', 'Michael Schoeffling', 'Cliff Robertson', 'Dylan Kussman']",1990
+Perfect Harmony,1991,7.3,93,,"Drama, Family, Music",506,['Will Mackenzie'],"['Peter Scolari', 'Darren McGavin', 'Catherine Mary Stewart', 'Moses Gunn']",1990
+White Fang,1991,6.7,107,PG,"Adventure, Drama, Family",22026,['Randal Kleiser'],"['Ethan Hawke', 'Klaus Maria Brandauer', 'Jed', 'Seymour Cassel']",1990
+A Mom for Christmas,1990,6.5,96,TV-G,"Comedy, Family, Fantasy",1207,['George Miller'],"['Olivia Newton-John', 'Juliet Sorci', 'Doug Sheehan', 'Carmen Argenziano']",1990
+Polly: Comin' Home!,1990,7.5,100,,"Family, Musical",285,['Debbie Allen'],"['Keshia Knight Pulliam', 'Phylicia Rashad', 'Dorian Harewood', 'Barbara Montgomery']",1990
+The Rescuers Down Under,1990,6.8,77,G,"Animation, Adventure, Comedy",46223,"['Hendel Butoy', 'Mike Gabriel']","['Bob Newhart', 'Eva Gabor', 'John Candy', 'Tristan Rogers']",1990
+DuckTales the Movie: Treasure of the Lost Lamp,1990,6.8,74,G,"Animation, Adventure, Comedy",28326,['Bob Hathcock'],"['Alan Young', 'Christopher Lloyd', 'Terence McGovern', 'Russi Taylor']",1990
+The Little Mermaid,1989,7.6,83,G,"Animation, Adventure, Family",285451,"['Ron Clements', 'John Musker']","['Jodi Benson', 'Samuel E. Wright', 'Rene Auberjonois', 'Christopher Daniel Barnes']",1980
+Cheetah,1989,5.9,83,G,"Adventure, Drama, Family",1155,['Jeff Blyth'],"['Keith Coogan', 'Lucy Deakins', 'Colin Mothupi', 'Timothy Landfield']",1980
+"Honey, I Shrunk the Kids",1989,6.4,93,PG,"Adventure, Comedy, Family",163514,['Joe Johnston'],"['Rick Moranis', 'Matt Frewer', 'Marcia Strassman', 'Kristine Sutherland']",1980
+Oliver & Company,1988,6.6,74,G,"Animation, Adventure, Comedy",51954,['George Scribner'],"['Joey Lawrence', 'Billy Joel', 'Cheech Marin', 'Richard Mulligan']",1980
+Student Exchange,1987,6.0,88,,"Comedy, Family, Romance",554,['Mollie Miller'],"['Todd Field', 'Viveka Davis', 'Gavin MacLeod', 'Mitchell Anderson']",1980
+Benji the Hunted,1987,6.2,88,G,"Adventure, Family",3301,['Joe Camp'],"['Red Steagall', 'Frank Inn', 'Benjean', 'Nancy Francis']",1980
+The Brave Little Toaster,1987,7.2,90,G,"Animation, Adventure, Family",27315,['Jerry Rees'],"['Jon Lovitz', 'Timothy Stack', 'Timothy E. Day', 'Thurl Ravenscroft']",1980
+The Christmas Star,1986,6.2,94,TV-G,"Drama, Family",752,['Alan Shapiro'],"['Edward Asner', 'Rene Auberjonois', 'Jim Metzler', 'Susan Tyrrell']",1980
+Flight of the Navigator,1986,6.9,90,PG,"Adventure, Comedy, Family",50899,['Randal Kleiser'],"['Joey Cramer', 'Paul Reubens', 'Cliff De Young', 'Veronica Cartwright']",1980
+The Parent Trap II,1986,6.0,81,Not Rated,"Comedy, Family",2277,['Ron Maxwell'],"['Hayley Mills', 'Tom Skerritt', 'Carrie Kei Heim', 'Bridgette Andersen']",1980
+The Great Mouse Detective,1986,7.1,74,G,"Animation, Adventure, Family",53212,"['Ron Clements', 'Burny Mattinson', 'David Michener', 'John Musker']","['Vincent Price', 'Barrie Ingham', 'Val Bettin', 'Susanne Pollatschek']",1980
+One Magic Christmas,1985,6.4,89,G,"Family, Fantasy",4201,['Phillip Borsos'],"['Mary Steenburgen', 'Gary Basaraba', 'Harry Dean Stanton', 'Arthur Hill']",1980
+The Journey of Natty Gann,1985,7.0,101,PG,"Adventure, Family",6682,['Jeremy Kagan'],"['Meredith Salenger', 'John Cusack', 'Jed', 'Ray Wise']",1980
+The Black Cauldron,1985,6.3,80,PG,"Animation, Action, Adventure",39669,"['Ted Berman', 'Richard Rich']","['Grant Bardsley', 'Freddie Jones', 'Susan Sheridan', 'Nigel Hawthorne']",1980
+Return to Oz,1985,6.7,113,PG,"Adventure, Family, Fantasy",29720,['Walter Murch'],"['Fairuza Balk', 'Nicol Williamson', 'Jean Marsh', 'Piper Laurie']",1980
+Where the Toys Come From,1983,6.0,58,,"Animation, Adventure, Family",154,['Theodore Thomas'],"['Sab Shimono', 'Erin Young', 'Jon Harvey', 'Larry Wright']",1980
+Never Cry Wolf,1983,7.5,105,PG,"Adventure, Drama",8638,['Carroll Ballard'],"['Charles Martin Smith', 'Brian Dennehy', 'Zachary Ittimangnaq', 'Samson Jorah']",1980
+Something Wicked This Way Comes,1983,6.7,95,PG,"Fantasy, Mystery, Thriller",10392,['Jack Clayton'],"['Mary Grace Canfield', 'Richard Davalos', 'Jake Dengel', 'Jack Dodson']",1980
+Tex,1982,6.4,103,PG,Drama,2401,['Tim Hunter'],"['Matt Dillon', 'Jim Metzler', 'Meg Tilly', 'Bill McKinney']",1980
+Tron,1982,6.7,96,PG,"Action, Adventure, Sci-Fi",127330,['Steven Lisberger'],"['Jeff Bridges', 'Bruce Boxleitner', 'David Warner', 'Cindy Morgan']",1980
+Night Crossing,1982,6.5,107,PG,"Drama, Family, History",1555,['Delbert Mann'],"['John Hurt', 'Jane Alexander', 'Doug McKeon', 'Keith McKeon']",1980
+The Fox and the Hound,1981,7.2,83,G,"Animation, Adventure, Drama",99786,"['Ted Berman', 'Richard Rich', 'Art Stevens', 'David Hand', 'Wolfgang Reitherman']","['Mickey Rooney', 'Kurt Russell', 'Pearl Bailey', 'Jack Albertson']",1980
+Condorman,1981,5.7,90,PG,"Action, Adventure, Comedy",5299,['Charles Jarrott'],"['Michael Crawford', 'Oliver Reed', 'Barbara Carrera', 'James Hampton']",1980
+The Great Muppet Caper,1981,7.1,97,G,"Adventure, Comedy, Crime",16402,['Jim Henson'],"['Jim Henson', 'Frank Oz', 'Dave Goelz', 'Jerry Nelson']",1980
+Amy,1981,6.4,100,G,"Drama, Family",560,['Vincent McEveety'],"['Jenny Agutter', 'Barry Newman', 'Kathleen Nolan', 'Chris Robinson']",1980
+The Devil and Max Devlin,1981,5.0,96,PG,"Comedy, Family, Fantasy",1417,['Steven Hilliard Stern'],"['Elliott Gould', 'Bill Cosby', 'Susan Anspach', 'Adam Rich']",1980
+Herbie Goes Bananas,1980,4.9,100,G,"Adventure, Comedy, Family",6139,['Vincent McEveety'],"['Charles Martin Smith', 'Stephen W. Burns', 'Cloris Leachman', 'John Vernon']",1980
+The Last Flight of Noah's Ark,1980,5.6,97,G,"Adventure, Family",1509,['Charles Jarrott'],"['Elliott Gould', 'Geneviève Bujold', 'Ricky Schroder', 'Vincent Gardenia']",1980
+The Watcher in the Woods,1980,6.1,84,PG,"Family, Horror, Mystery",6879,"['John Hough', 'Vincent McEveety']","['Bette Davis', 'Lynn-Holly Johnson', 'Kyle Richards', 'Carroll Baker']",1980
+The Black Hole,1979,5.9,98,PG,"Action, Sci-Fi",27397,['Gary Nelson'],"['Maximilian Schell', 'Anthony Perkins', 'Robert Forster', 'Joseph Bottoms']",1970
+Unidentified Flying Oddball,1979,5.2,93,G,"Adventure, Comedy, Family",1335,['Russ Mayberry'],"['Dennis Dugan', 'Jim Dale', 'Ron Moody', 'Kenneth More']",1970
+The Apple Dumpling Gang Rides Again,1979,6.0,88,G,"Comedy, Family, Western",3164,['Vincent McEveety'],"['Tim Conway', 'Don Knotts', 'Tim Matheson', 'Kenneth Mars']",1970
+The Muppet Movie,1979,7.6,95,G,"Adventure, Comedy, Family",38354,['James Frawley'],"['Jim Henson', 'Frank Oz', 'Jerry Nelson', 'Richard Hunt']",1970
+The North Avenue Irregulars,1979,6.7,100,G,"Action, Comedy, Crime",1329,['Bruce Bilson'],"['Edward Herrmann', 'Barbara Harris', 'Susan Clark', 'Karen Valentine']",1970
+Hot Lead and Cold Feet,1978,6.0,90,G,"Comedy, Western",1444,['Robert Butler'],"['Jim Dale', 'Darren McGavin', 'Karen Valentine', 'Don Knotts']",1970
+The Cat from Outer Space,1978,6.0,104,G,"Comedy, Family, Sci-Fi",5789,['Norman Tokar'],"['Ken Berry', 'Sandy Duncan', 'Harry Morgan', 'Roddy McDowall']",1970
+Return from Witch Mountain,1978,5.7,95,G,"Adventure, Family, Fantasy",5549,['John Hough'],"['Bette Davis', 'Christopher Lee', 'Kim Richards', 'Ike Eisenmann']",1970
+Candleshoe,1977,6.7,101,G,"Adventure, Comedy, Drama",4815,['Norman Tokar'],"['Jodie Foster', 'David Niven', 'Helen Hayes', 'Leo McKern']",1970
+Pete's Dragon,1977,6.3,128,G,"Animation, Adventure, Comedy",26087,"['Don Chaffey', 'Don Bluth']","['Sean Marshall', 'Helen Reddy', 'Jim Dale', 'Mickey Rooney']",1970
+Herbie Goes to Monte Carlo,1977,5.6,105,G,"Action, Adventure, Comedy",7972,['Vincent McEveety'],"['Dean Jones', 'Don Knotts', 'Julie Sommars', 'Jacques Marin']",1970
+The Rescuers,1977,6.9,77,G,"Animation, Adventure, Comedy",68479,"['John Lounsbery', 'Wolfgang Reitherman', 'Art Stevens']","['Bob Newhart', 'Eva Gabor', 'Geraldine Page', 'Joe Flynn']",1970
+The Many Adventures of Winnie the Pooh,1977,7.5,74,G,"Animation, Comedy, Family",38990,"['John Lounsbery', 'Wolfgang Reitherman', 'Ben Sharpsteen']","['Sebastian Cabot', 'Junius Matthews', 'Barbara Luddy', 'Howard Morris']",1970
+Freaky Friday,1976,6.3,95,G,"Comedy, Family, Fantasy",13772,['Gary Nelson'],"['Barbara Harris', 'Jodie Foster', 'John Astin', 'Patsy Kelly']",1970
+The Shaggy D.A.,1976,5.8,91,G,"Comedy, Family, Fantasy",3312,['Robert Stevenson'],"['Dean Jones', 'Suzanne Pleshette', 'Tim Conway', 'Keenan Wynn']",1970
+Gus,1976,5.7,96,Passed,"Comedy, Family, Sport",2114,['Vincent McEveety'],"['Edward Asner', 'Don Knotts', 'Gary Grimes', 'Tim Conway']",1970
+Treasure of Matecumbe,1976,6.1,117,G,"Adventure, Drama, Family",959,['Vincent McEveety'],"['Robert Foxworth', 'Joan Hackett', 'Peter Ustinov', 'Vic Morrow']",1970
+"No Deposit, No Return",1976,6.3,112,G,"Comedy, Family",1657,['Norman Tokar'],"['David Niven', 'Darren McGavin', 'Don Knotts', 'Herschel Bernardi']",1970
+Ride a Wild Pony,1975,6.0,91,G,"Adventure, Family",230,['Don Chaffey'],"['Michael Craig', 'John Meillon', 'Robert Bettles', 'Eva Griffith']",1970
+One of Our Dinosaurs Is Missing,1975,5.9,94,G,"Adventure, Comedy, Family",1895,['Robert Stevenson'],"['Peter Ustinov', 'Helen Hayes', 'Derek Nimmo', 'Hugh Burden']",1970
+The Apple Dumpling Gang,1975,6.4,100,G,"Comedy, Family, Western",6398,['Norman Tokar'],"['Bill Bixby', 'Susan Clark', 'Don Knotts', 'Tim Conway']",1970
+Escape to Witch Mountain,1975,6.3,97,G,"Adventure, Family, Fantasy",11129,['John Hough'],"['Eddie Albert', 'Ray Milland', 'Donald Pleasence', 'Kim Richards']",1970
+The Strongest Man in the World,1975,5.9,92,G,"Comedy, Family, Sci-Fi",3638,['Vincent McEveety'],"['Kurt Russell', 'Joe Flynn', 'Eve Arden', 'Cesar Romero']",1970
+The Island at the Top of the World,1974,6.2,93,G,"Adventure, Family, Fantasy",3084,['Robert Stevenson'],"['David Hartman', 'Donald Sinden', 'Jacques Marin', 'Mako']",1970
+The Castaway Cowboy,1974,5.8,91,G,"Comedy, Family, Western",865,['Vincent McEveety'],"['James Garner', 'Vera Miles', 'Robert Culp', 'Eric Shea']",1970
+The Bears and I,1974,6.1,89,G,"Adventure, Drama, Family",553,['Bernard McEveety'],"['Patrick Wayne', 'Chief Dan George', 'Andrew Duggan', 'Michael Ansara']",1970
+Herbie Rides Again,1974,5.7,88,Passed,"Comedy, Family, Fantasy",8661,['Robert Stevenson'],"['Helen Hayes', 'Ken Berry', 'Stefanie Powers', 'John McIntire']",1970
+Superdad,1973,5.1,96,G,"Comedy, Family",835,['Vincent McEveety'],"['Bob Crane', 'Kurt Russell', 'Barbara Rush', 'Joe Flynn']",1970
+Robin Hood,1973,7.5,83,G,"Animation, Adventure, Comedy",136129,"['Wolfgang Reitherman', 'David Hand']","['Brian Bedford', 'Phil Harris', 'Roger Miller', 'Peter Ustinov']",1970
+One Little Indian,1973,6.1,90,G,"Comedy, Family, Western",711,['Bernard McEveety'],"['James Garner', 'Vera Miles', 'Pat Hingle', 'Morgan Woodward']",1970
+Charley and the Angel,1973,6.0,93,G,"Comedy, Family, Fantasy",630,['Vincent McEveety'],"['Fred MacMurray', 'Cloris Leachman', 'Harry Morgan', 'Kurt Russell']",1970
+The World's Greatest Athlete,1973,5.6,93,G,"Comedy, Family, Romance",1696,['Robert Scheerer'],"['John Amos', 'Jan-Michael Vincent', 'Tim Conway', 'Roscoe Lee Browne']",1970
+Snowball Express,1972,6.3,93,G,"Comedy, Family",1988,['Norman Tokar'],"['Dean Jones', 'Nancy Olson', 'Harry Morgan', 'Keenan Wynn']",1970
+"Now You See Him, Now You Don't",1972,6.2,88,G,"Comedy, Family, Sci-Fi",2254,['Robert Butler'],"['Kurt Russell', 'Cesar Romero', 'Joe Flynn', 'Jim Backus']",1970
+Napoleon and Samantha,1972,6.0,92,G,"Adventure, Drama",1071,['Bernard McEveety'],"['Michael Douglas', 'Jodie Foster', 'Johnny Whitaker', 'Will Geer']",1970
+The Biscuit Eater,1972,5.7,90,G,"Adventure, Drama, Family",515,['Vincent McEveety'],"['Earl Holliman', 'Pat Crowley', 'Lew Ayres', 'Godfrey Cambridge']",1970
+Bedknobs and Broomsticks,1971,7.0,117,G,"Animation, Adventure, Comedy",40100,"['Robert Stevenson', 'Ward Kimball']","['Angela Lansbury', 'David Tomlinson', 'Roddy McDowall', 'Sam Jaffe']",1970
+The Million Dollar Duck,1971,5.7,89,G,"Comedy, Family, Sci-Fi",2612,['Vincent McEveety'],"['Dean Jones', 'Sandy Duncan', 'Joe Flynn', 'Tony Roberts']",1970
+Scandalous John,1971,5.8,113,G,"Comedy, Drama, Family",170,['Robert Butler'],"['Brian Keith', 'Alfonso Arau', 'Michele Carey', 'Rick Lenz']",1970
+The Barefoot Executive,1971,5.9,96,G,"Comedy, Family",2024,['Robert Butler'],"['Kurt Russell', 'Joe Flynn', 'Harry Morgan', 'Wally Cox']",1970
+The Wild Country,1970,6.2,100,G,"Action, Adventure, Comedy",340,['Robert Totten'],"['Steve Forrest', 'Vera Miles', 'Ron Howard', 'Clint Howard']",1970
+The Boatniks,1970,5.5,99,G,"Comedy, Family",837,['Norman Tokar'],"['Robert Morse', 'Stefanie Powers', 'Phil Silvers', 'Norman Fell']",1970
+King of the Grizzlies,1970,5.6,93,G,"Family, Western",201,['Ron Kelly'],"['John Yesno', 'Chris Wiggins', 'Hugh Webster', 'Jack Van Evera']",1970
+The Computer Wore Tennis Shoes,1969,5.9,91,G,"Comedy, Family, Sci-Fi",5782,['Robert Butler'],"['Kurt Russell', 'Cesar Romero', 'Joe Flynn', 'William Schallert']",1960
+Rascal,1969,6.4,85,G,"Drama, Family",515,['Norman Tokar'],"['Steve Forrest', 'Bill Mumy', 'Pamela Toll', 'Elsa Lanchester']",1960
+The Love Bug,1969,6.5,108,G,"Comedy, Family, Sport",17173,['Robert Stevenson'],"['Dean Jones', 'Michele Lee', 'David Tomlinson', 'Buddy Hackett']",1960
+Do Dooni Char,1968,7.3,135,,"Comedy, Drama",74,['Debu Sen'],"['Kishore Kumar', 'Asit Kumar Sen', 'Surekha', 'Tanuja Samarth']",1960
+The Horse in the Gray Flannel Suit,1968,6.3,113,G,"Comedy, Drama, Family",1106,['Norman Tokar'],"['Dean Jones', 'Diane Baker', 'Lloyd Bochner', 'Fred Clark']",1960
+Never a Dull Moment,1968,6.0,99,G,"Comedy, Crime, Family",781,['Jerry Paris'],"['Dick Van Dyke', 'Edward G. Robinson', 'Dorothy Provine', 'Henry Silva']",1960
+"The One and Only, Genuine, Original Family Band",1968,6.3,110,Passed,"Comedy, Drama, Family",1023,"[""Michael O'Herlihy""]","['Walter Brennan', 'Buddy Ebsen', 'Lesley Ann Warren', 'John Davidson']",1960
+Blackbeard's Ghost,1968,6.8,106,Approved,"Comedy, Family, Fantasy",6600,['Robert Stevenson'],"['Peter Ustinov', 'Dean Jones', 'Suzanne Pleshette', 'Elsa Lanchester']",1960
+The Happiest Millionaire,1967,6.5,141,Approved,"Comedy, Family, Musical",2367,['Norman Tokar'],"['Fred MacMurray', 'Tommy Steele', 'Greer Garson', 'Gladys Cooper']",1960
+The Jungle Book,1967,7.6,78,G,"Animation, Adventure, Comedy",194839,['Wolfgang Reitherman'],"['Phil Harris', 'Sebastian Cabot', 'Louis Prima', 'Bruce Reitherman']",1960
+"Charlie, the Lonesome Cougar",1967,6.7,75,Approved,"Adventure, Family",925,['Winston Hibler'],"['Ron Brown', 'Brian Russell', 'Linda Wallace', 'Jim Wilson']",1960
+The Gnome-Mobile,1967,6.4,84,Approved,"Adventure, Family, Fantasy",2380,['Robert Stevenson'],"['Walter Brennan', 'Matthew Garber', 'Karen Dotrice', 'Richard Deacon']",1960
+The Adventures of Bullwhip Griffin,1967,6.4,108,Approved,"Action, Adventure, Comedy",1258,['James Neilson'],"['Roddy McDowall', 'Suzanne Pleshette', 'Karl Malden', 'Harry Guardino']",1960
+"Monkeys, Go Home!",1967,5.7,101,Passed,"Comedy, Family",575,['Andrew V. McLaglen'],"['Maurice Chevalier', 'Dean Jones', 'Yvette Mimieux', 'Bernard Woringer']",1960
+The Fighting Prince of Donegal,1966,6.0,110,Not Rated,"Adventure, Biography, Family",423,"[""Michael O'Herlihy""]","['Peter McEnery', 'Susan Hampshire', 'Tom Adams', 'Gordon Jackson']",1960
+"Follow Me, Boys!",1966,7.1,131,Approved,"Drama, Family",2559,['Norman Tokar'],"['Fred MacMurray', 'Vera Miles', 'Lillian Gish', 'Charles Ruggles']",1960
+"Lt. Robin Crusoe, U.S.N.",1966,5.8,110,G,"Adventure, Comedy, Family",1529,['Byron Paul'],"['Dick Van Dyke', 'Nancy Kwan', 'Akim Tamiroff', 'Arthur Malet']",1960
+The Ugly Dachshund,1966,6.5,93,Not Rated,"Comedy, Family",4563,['Norman Tokar'],"['Dean Jones', 'Suzanne Pleshette', 'Charles Ruggles', 'Kelly Thordsen']",1960
+That Darn Cat!,1965,6.7,116,Approved,"Comedy, Crime, Family",7662,['Robert Stevenson'],"['Hayley Mills', 'Dean Jones', 'Dorothy Provine', 'Roddy McDowall']",1960
+The Monkey's Uncle,1965,5.9,91,G,"Comedy, Family, Sci-Fi",976,['Robert Stevenson'],"['Tommy Kirk', 'Annette Funicello', 'Leon Ames', ""Arthur O'Connell""]",1960
+Those Calloways,1965,6.5,131,Approved,"Adventure, Drama, Family",812,['Norman Tokar'],"['Brian Keith', 'Vera Miles', 'Brandon De Wilde', 'Walter Brennan']",1960
+Emil and the Detectives,1964,6.1,99,Approved,"Comedy, Crime, Drama",803,['Peter Tewksbury'],"['Walter Slezak', 'Bryan Russell', 'Roger Mobley', 'Heinz Schubert']",1960
+Mary Poppins,1964,7.8,139,G,"Comedy, Family, Fantasy",182255,['Robert Stevenson'],"['Julie Andrews', 'Dick Van Dyke', 'David Tomlinson', 'Glynis Johns']",1960
+The Moon-Spinners,1964,6.5,118,G,"Adventure, Family, Mystery",2957,['James Neilson'],"['Hayley Mills', 'Eli Wallach', 'Pola Negri', 'Peter McEnery']",1960
+A Tiger Walks,1964,6.2,91,Approved,"Drama, Family",391,['Norman Tokar'],"['Brian Keith', 'Vera Miles', 'Pamela Franklin', 'Sabu']",1960
+The Misadventures of Merlin Jones,1964,6.2,91,Approved,"Comedy, Family, Sci-Fi",842,['Robert Stevenson'],"['Tommy Kirk', 'Annette Funicello', 'Leon Ames', 'Stuart Erwin']",1960
+The Sword in the Stone,1963,7.1,79,G,"Animation, Adventure, Comedy",104506,"['Wolfgang Reitherman', 'Clyde Geronimi', 'David Hand']","['Rickie Sorensen', 'Sebastian Cabot', 'Karl Swenson', 'Junius Matthews']",1960
+The Three Lives of Thomasina,1963,7.2,97,PG,"Drama, Family",2548,['Don Chaffey'],"['Patrick McGoohan', 'Susan Hampshire', 'Laurence Naismith', 'Jean Anderson']",1960
+The Incredible Journey,1963,7.0,80,G,"Adventure, Drama, Family",5108,['Fletcher Markle'],"['Émile Genest', 'John Drainie', 'Tommy Tweed', 'Sandra Scott']",1960
+Summer Magic,1963,6.9,110,Approved,"Comedy, Family, Musical",2669,['James Neilson'],"['Hayley Mills', 'Dorothy McGuire', 'Burl Ives', 'Deborah Walley']",1960
+Yellowstone Cubs,1963,6.7,48,Not Rated,"Adventure, Family",316,['Charles L. Draper'],"['Rex Allen', 'Joe Way']",1960
+Miracle of the White Stallions,1963,6.5,118,,"Adventure, Drama, Family",776,['Arthur Hiller'],"['Robert Taylor', 'Lilli Palmer', 'Curd Jürgens', 'Eddie Albert']",1960
+Son of Flubber,1962,6.0,100,Approved,"Comedy, Family, Sci-Fi",3158,['Robert Stevenson'],"['Fred MacMurray', 'Nancy Olson', 'Keenan Wynn', 'Tommy Kirk']",1960
+In Search of the Castaways,1962,6.5,98,Approved,"Adventure, Family, Fantasy",3390,['Robert Stevenson'],"['Hayley Mills', 'Maurice Chevalier', 'George Sanders', 'Wilfrid Hyde-White']",1960
+The Legend of Lobo,1962,6.7,67,Approved,"Adventure, Family",566,['James Algar'],"['Rex Allen', 'Ingvald Lieberkind', 'Robert Dalban']",1960
+Almost Angels,1962,6.4,93,Not Rated,"Comedy, Family, Music",646,['Steve Previn'],"['Vincent Winter', 'Sean Scully', 'Peter Weck', 'Hans Holt']",1960
+Big Red,1962,6.3,89,Not Rated,"Adventure, Drama, Family",825,['Norman Tokar'],"['Walter Pidgeon', 'Gilles Payant', 'Émile Genest', 'Janette Bertrand']",1960
+Bon Voyage!,1962,5.6,130,Not Rated,"Adventure, Comedy, Drama",744,['James Neilson'],"['Fred MacMurray', 'Jane Wyman', 'Michael Callan', 'Deborah Walley']",1960
+Moon Pilot,1962,5.4,98,Not Rated,"Comedy, Family, Sci-Fi",517,['James Neilson'],"['Tom Tryon', 'Brian Keith', ""Edmond O'Brien"", 'Dany Saval']",1960
+Babes in Toyland,1961,6.1,106,Approved,"Comedy, Family, Fantasy",4646,['Jack Donohue'],"['Ray Bolger', 'Tommy Sands', 'Annette Funicello', 'Ed Wynn']",1960
+Greyfriars Bobby: The True Story of a Dog,1961,7.2,87,Approved,"Drama, Family",1792,['Don Chaffey'],"['Donald Crisp', 'Laurence Naismith', 'Alex Mackenzie', 'Duncan Macrae']",1960
+"Nikki, Wild Dog of the North",1961,6.7,74,G,"Adventure, Family",500,"['Jack Couffer', 'Don Haldane']","['Jean Coutu', 'Émile Genest', 'Uriel Luft', 'Robert Rivard']",1960
+The Parent Trap,1961,7.2,129,Passed,"Comedy, Family, Romance",23413,['David Swift'],"['Hayley Mills', ""Maureen O'Hara"", 'Brian Keith', 'Charles Ruggles']",1960
+The Absent Minded Professor,1961,6.7,92,Approved,"Comedy, Family, Sci-Fi",9049,['Robert Stevenson'],"['Fred MacMurray', 'Nancy Olson', 'Keenan Wynn', 'Tommy Kirk']",1960
+Swiss Family Robinson,1960,7.1,126,G,"Adventure, Family",17741,['Ken Annakin'],"['John Mills', 'Dorothy McGuire', 'James MacArthur', 'Janet Munro']",1960
+Ten Who Dared,1960,5.5,92,Not Rated,"Adventure, Family, Western",297,['William Beaudine'],"['Brian Keith', 'John Beal', 'James Drury', 'R.G. Armstrong']",1960
+Jungle Cat,1960,7.2,69,Approved,"Documentary, Family",403,['James Algar'],['Winston Hibler'],1960
+Pollyanna,1960,7.4,134,Approved,"Comedy, Drama, Family",11107,['David Swift'],"['Jane Wyman', 'Hayley Mills', 'Richard Egan', 'Karl Malden']",1960
+Third Man on the Mountain,1959,7.0,107,Approved,"Adventure, Drama, Family",1190,['Ken Annakin'],"['Michael Rennie', 'James MacArthur', 'Janet Munro', 'James Donald']",1950
+Darby O'Gill and the Little People,1959,7.1,93,G,"Adventure, Family, Fantasy",8985,['Robert Stevenson'],"['Albert Sharpe', 'Janet Munro', 'Sean Connery', ""Jimmy O'Dea""]",1950
+The Shaggy Dog,1959,6.4,104,Approved,"Comedy, Family, Fantasy",5461,['Charles Barton'],"['Fred MacMurray', 'Jean Hagen', 'Tommy Kirk', 'Annette Funicello']",1950
+Sleeping Beauty,1959,7.2,75,G,"Animation, Adventure, Family",158016,"['Les Clark', 'Clyde Geronimi', 'Eric Larson', 'Wolfgang Reitherman', 'Hamilton Luske']","['Mary Costa', 'Bill Shirley', 'Eleanor Audley', 'Verna Felton']",1950
+Tonka,1958,6.2,97,Approved,"Adventure, Drama, Family",501,['Lewis R. Foster'],"['Sal Mineo', 'Philip Carey', 'Jerome Courtland', 'H.M. Wynant']",1950
+The Sign of Zorro,1958,6.9,91,G,"Adventure, Drama, Family",1214,"['Lewis R. Foster', 'Norman Foster']","['Guy Williams', 'Henry Calvin', 'Gene Sheldon', 'Romney Brent']",1950
+White Wilderness,1958,5.4,72,Approved,"Documentary, Family",517,['James Algar'],"['Winston Hibler', 'Volmer Sørensen']",1950
+The Light in the Forest,1958,6.4,83,Unrated,"Adventure, Drama, Family",681,['Herschel Daugherty'],"['Fess Parker', 'Wendell Corey', 'Joanne Dru', 'James MacArthur']",1950
+Hans Brinker and the Silver Skates,1958,7.5,90,,"Family, Musical",79,"['Sidney Lumet', 'George Schaefer']","['Florence Anglin', 'Dick Button', 'Matt Crowley', 'John Fiedler']",1950
+Old Yeller,1957,7.2,83,Approved,"Adventure, Drama, Family",14746,['Robert Stevenson'],"['Dorothy McGuire', 'Fess Parker', 'Tommy Kirk', 'Jeff York']",1950
+Johnny Tremain,1957,6.4,80,Approved,"Adventure, Family, War",1911,['Robert Stevenson'],"['Hal Stalmaster', 'Luana Patten', 'Jeff York', 'Sebastian Cabot']",1950
+"Westward Ho, the Wagons!",1956,5.7,90,Approved,"Family, Western",391,['William Beaudine'],"['Fess Parker', 'Kathleen Crowley', 'Jeff York', 'David Stollery']",1950
+Secrets of Life,1956,7.3,70,Passed,"Documentary, Family",329,['James Algar'],['Winston Hibler'],1950
+Davy Crockett and the River Pirates,1956,6.6,81,Approved,"Adventure, Comedy, Drama",2384,['Norman Foster'],"['Fess Parker', 'Buddy Ebsen', 'Jeff York', 'Kenneth Tobey']",1950
+The Great Locomotive Chase,1956,6.8,85,Approved,"Action, Adventure, Family",1349,['Francis D. Lyon'],"['Fess Parker', 'Jeffrey Hunter', 'Jeff York', 'John Lupton']",1950
+The Littlest Outlaw,1955,6.1,73,Not Rated,"Drama, Family",285,['Roberto Gavaldón'],"['Pedro Armendáriz', 'Joseph Calleia', 'Rodolfo Acosta', 'Andrés Velázquez']",1950
+The African Lion,1955,7.2,75,G,"Family, Documentary",571,['James Algar'],['Winston Hibler'],1950
+Lady and the Tramp,1955,7.3,76,G,"Animation, Adventure, Comedy",145273,"['Clyde Geronimi', 'Wilfred Jackson', 'Hamilton Luske', 'Jack Cutting']","['Barbara Luddy', 'Larry Roberts', 'Peggy Lee', 'Bill Thompson']",1950
+Davy Crockett: King of the Wild Frontier,1955,6.9,93,Approved,"Adventure, Drama, Family",4728,['Norman Foster'],"['Fess Parker', 'Buddy Ebsen', 'Basil Ruysdael', 'Hans Conried']",1950
+The Vanishing Prairie,1954,7.2,71,Approved,"Documentary, Family",773,['James Algar'],['Winston Hibler'],1950
+"20,000 Leagues Under the Sea",1954,7.2,127,G,"Adventure, Drama, Family",36387,['Richard Fleischer'],"['Kirk Douglas', 'James Mason', 'Paul Lukas', 'Peter Lorre']",1950
+The Living Desert,1953,7.4,69,G,"Family, Documentary",1674,['James Algar'],['Winston Hibler'],1950
+Rob Roy: The Highland Rogue,1953,6.3,81,Approved,"Adventure, Biography, Drama",642,['Harold French'],"['Richard Todd', 'Glynis Johns', 'James Robertson Justice', 'Michael Gough']",1950
+The Sword and the Rose,1953,6.3,92,Approved,"Adventure, Drama, Family",964,['Ken Annakin'],"['Richard Todd', 'Glynis Johns', 'James Robertson Justice', 'Michael Gough']",1950
+Peter Pan,1953,7.3,77,G,"Animation, Adventure, Family",150080,"['Clyde Geronimi', 'Wilfred Jackson', 'Hamilton Luske', 'Jack Kinney']","['Bobby Driscoll', 'Kathryn Beaumont', 'Hans Conried', 'Bill Thompson']",1950
+The Story of Robin Hood and His Merrie Men,1952,6.6,84,Approved,"Action, Adventure, Family",2235,['Ken Annakin'],"['Richard Todd', 'Joan Rice', 'Peter Finch', 'James Hayter']",1950
+Alice in Wonderland,1951,7.3,75,G,"Animation, Adventure, Comedy",150918,"['Clyde Geronimi', 'Wilfred Jackson', 'Hamilton Luske', 'Jack Kinney']","['Kathryn Beaumont', 'Ed Wynn', 'Richard Haydn', 'Sterling Holloway']",1950
+Treasure Island,1950,6.9,96,PG,"Adventure, Family",9202,['Byron Haskin'],"['Bobby Driscoll', 'Robert Newton', 'Basil Sydney', 'Walter Fitzgerald']",1950
+Cinderella,1950,7.3,74,G,"Animation, Family, Fantasy",170835,"['Clyde Geronimi', 'Wilfred Jackson', 'Hamilton Luske']","['Ilene Woods', 'James MacDonald', 'Eleanor Audley', 'Verna Felton']",1950
+The Adventures of Ichabod and Mr. Toad,1949,6.9,68,Approved,"Animation, Comedy, Family",17487,"['James Algar', 'Clyde Geronimi', 'Jack Kinney']","['Bing Crosby', 'Basil Rathbone', 'Eric Blore', 'John McLeish']",1940
+So Dear to My Heart,1948,6.7,79,Passed,"Animation, Drama, Family",1618,"['Harold D. Schuster', 'Hamilton Luske']","['Burl Ives', 'Beulah Bondi', 'Bobby Driscoll', 'Luana Patten']",1940
+Melody Time,1948,6.1,75,Approved,"Animation, Comedy, Family",6732,"['Clyde Geronimi', 'Wilfred Jackson', 'Jack Kinney', 'Hamilton Luske']","['Roy Rogers', 'Trigger', 'Dennis Day', 'Laverne Andrews']",1940
+Fun and Fancy Free,1947,6.4,73,Approved,"Animation, Adventure, Comedy",9142,"['Jack Kinney', 'Hamilton Luske', 'William Morgan', 'Bill Roberts']","['Edgar Bergen', 'Dinah Shore', 'Luana Patten', 'Anita Gordon']",1940
+Make Mine Music,1946,6.2,75,Passed,"Animation, Adventure, Comedy",4820,"['Robert Cormack', 'Clyde Geronimi', 'Jack Kinney', 'Hamilton Luske', 'Joshua Meador']","['Nelson Eddy', 'Dinah Shore', 'Laverne Andrews', 'Maxene Andrews']",1940
+The Three Caballeros,1944,6.3,71,Approved,"Animation, Comedy, Family",15218,"['Norman Ferguson', 'Clyde Geronimi', 'Jack Kinney', 'Bill Roberts', 'Harold Young']","['Aurora Miranda', 'Carmen Molina', 'Dora Luz', 'Sterling Holloway']",1940
+Bambi,1942,7.3,69,G,"Animation, Adventure, Drama",151409,"['James Algar', 'Samuel Armstrong', 'David Hand', 'Graham Heid', 'Bill Roberts', 'Paul Satterfield', 'Norman Wright', 'Arthur Davis', 'Clyde Geronimi']","['Hardie Albright', 'Stan Alexander', 'Bobette Audrey', 'Peter Behn']",1940
+Dumbo,1941,7.2,64,G,"Animation, Adventure, Drama",139679,"['Samuel Armstrong', 'Norman Ferguson', 'Wilfred Jackson', 'Jack Kinney', 'Bill Roberts', 'Ben Sharpsteen', 'John Elliotte']","['Sterling Holloway', 'Edward Brophy', 'Herman Bing', 'Billy Bletcher']",1940
+The Reluctant Dragon,1941,6.7,74,Approved,"Animation, Comedy, Family",3721,"['Alfred L. Werker', 'Hamilton Luske', 'Jack Cutting', 'Ub Iwerks', 'Jack Kinney']","['Robert Benchley', 'Frances Gifford', 'Buddy Pepper', 'Nana Bryant']",1940
+Fantasia,1940,7.7,124,G,"Animation, Family, Fantasy",102016,"['James Algar', 'Samuel Armstrong', 'Ford Beebe Jr.', 'Norman Ferguson', 'David Hand', 'Jim Handley', 'T. Hee', 'Wilfred Jackson', 'Hamilton Luske', 'Bill Roberts', 'Paul Satterfield', 'Ben Sharpsteen']","['Leopold Stokowski', 'Deems Taylor', 'The Philadelphia Orchestra', 'Corey Burton']",1940
+Pinocchio,1940,7.5,88,G,"Animation, Adventure, Comedy",156728,"['Norman Ferguson', 'T. Hee', 'Wilfred Jackson', 'Jack Kinney', 'Hamilton Luske', 'Bill Roberts', 'Ben Sharpsteen']","['Dickie Jones', 'Christian Rub', 'Mel Blanc', 'Don Brodie']",1940
+Snow White and the Seven Dwarfs,1937,7.6,83,Approved,"Animation, Adventure, Family",211708,"['William Cottrell', 'David Hand', 'Wilfred Jackson', 'Larry Morey', 'Perce Pearce', 'Ben Sharpsteen']","['Adriana Caselotti', 'Harry Stockwell', 'Lucille La Verne', 'Roy Atwell']",1930
