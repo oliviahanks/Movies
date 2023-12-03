@@ -53,17 +53,19 @@ def clean_imdb(imdb):
     imdb['score'] = imdb['score'].astype(float)
 
     imdb['title'] = imdb['title'].str.replace('[\n][^\n]+[\n]','', regex=True)
+    imdb['title'] = imdb.title.str.strip()
+
     imdb['genre'] = imdb['genre'].str.replace('[\n]','', regex=True).apply(lambda x: x.strip())
+    imdb['genre'] = imdb['genre'].apply(lambda x: x.replace(', ', ','))
+
 
     imdb[['director', 'actors']] = imdb['director'].str.replace('[\n]','', regex=True).apply(lambda x: str(x).replace(', ', ',')).apply(lambda x: x.strip()).str.split('|', expand = True)
 
     imdb['actors'] = imdb.actors.str.replace('\s*Stars:\s*', '', regex = True).str.replace('\s*Star:\s*', '', regex = True)
-    imdb['director'] = imdb.director.str.replace('Directors:', '', regex = True).str.replace('Director:', '', regex = True)
-
     imdb['actors'] = imdb['actors'].str.split(',')
-    imdb['director'] = imdb['director'].str.split(',')
 
-    imdb['title'] = imdb.title.str.strip()
+    imdb['director'] = imdb.director.str.replace('Directors:', '', regex = True).str.replace('Director:', '', regex = True)
+    imdb['director'] = imdb['director'].str.split(',')
 
     imdb['decade'] = imdb.year.apply(lambda x: math.floor(x/10)*10)
 
