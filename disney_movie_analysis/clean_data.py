@@ -5,12 +5,6 @@ import math
 
 # Clean Rotten Tomatoes
 
-
-rotten_tomatoes = pd.read_csv('disney_movie_analysis/data/rotten_tomatoes_raw.csv')
-
-rotten_tomatoes = rotten_tomatoes.drop(32)
-
-
 def clean_rotten_tomatoes(rotten_tomatoes):
     rotten_tomatoes['title'] = rotten_tomatoes['title'].str.replace('[\n]','', regex=True).str.replace('[(][^)]+[)]','', regex=True).str.replace('\d+[%]','', regex=True)
 
@@ -29,19 +23,8 @@ def clean_rotten_tomatoes(rotten_tomatoes):
     return rotten_tomatoes
 
 
-rotten_tomatoes = clean_rotten_tomatoes(rotten_tomatoes)
-
-rotten_tomatoes.to_csv('disney_movie_analysis/data/rotten_tomatoes.csv', index = False)
-
-
 
 # Clean IMDB
-
-
-imdb = pd.read_csv('disney_movie_analysis/data/imdb_raw.csv')
-
-imdb = imdb.drop(19, axis='index')
-imdb = imdb.drop(170, axis='index')
 
 
 def clean_imdb(imdb):
@@ -71,7 +54,3 @@ def clean_imdb(imdb):
 
     return imdb
 
-
-imdb = clean_imdb(imdb)
-
-imdb.to_csv('disney_movie_analysis/data/imdb.csv', index = False)

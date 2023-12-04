@@ -35,12 +35,6 @@ def scrape_rotten_tomatoes(webpage):
     return pd.DataFrame(movies)
 
 
-webpage = "https://editorial.rottentomatoes.com/guide/disney-100-essential-movies/"
-rotten_tomatoes = scrape_rotten_tomatoes(webpage)
-rotten_tomatoes.to_csv('disney_movie_analysis/data/rotten_tomatoes_raw.csv', index = False)
-
-
-
 
 
 # Read In IMDB Data
@@ -69,15 +63,3 @@ def scrape_imdb(webpage):
         movies['director'].append(director_list[0] if director_list else "")
 
     return pd.DataFrame(movies)
-
-webpages = ["https://www.imdb.com/list/ls089035876/?sort=release_date,desc&st_dt=&mode=detail&page=1", 
-            "https://www.imdb.com/list/ls089035876/?sort=release_date,desc&st_dt=&mode=detail&page=2",
-            "https://www.imdb.com/list/ls089035876/?sort=release_date,desc&st_dt=&mode=detail&page=3", 
-            "https://www.imdb.com/list/ls089035876/?sort=release_date,desc&st_dt=&mode=detail&page=4",
-            "https://www.imdb.com/list/ls089035876/?sort=release_date,desc&st_dt=&mode=detail&page=5"]
-
-imdb = pd.DataFrame()
-for webpage in webpages:
-    imdb = pd.concat([imdb, scrape_imdb(webpage)])
-
-imdb.to_csv('disney_movie_analysis/data/imdb_raw.csv', index = False)
