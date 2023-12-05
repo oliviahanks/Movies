@@ -30,6 +30,7 @@ def list_averages(dataframe, list_column, summary_column):
 
     return val_averages
 
-# Merge Datasets
-merged = rotten_tomatoes.merge(imdb, how= 'inner', on = ['title', 'year'])
-merged.to_csv('disney_movie_analysis/data/merged.csv', index = False)
+if __name__ == '__main__':
+    # Merge Datasets
+    merged = rotten_tomatoes.merge(imdb, how= 'inner', on = ['title', 'year'])
+    merged.to_csv('disney_movie_analysis/data/merged.csv', index = False)
