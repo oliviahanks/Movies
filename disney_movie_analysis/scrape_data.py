@@ -11,7 +11,7 @@ def get_html_text(bs, name, attrs):
     try:
         text = bs.find(name, attrs).text
     except:
-        text = None
+        text = None | text.isna()
     return text
 
 
