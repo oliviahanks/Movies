@@ -2,6 +2,9 @@ import pandas as pd
 import re
 import math
 
+"""
+This script takes the raw data and does the data cleaning and organizing.
+"""
 
 # Clean Rotten Tomatoes
 

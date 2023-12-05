@@ -11,8 +11,8 @@ Welcome to Movies's documentation!
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
-
-   markdown
+   
+   readme_link
    modules
 
 Indices and tables

@@ -86,4 +86,4 @@ book_df['title'] = book_df['title'].str.findall('(^.*?)\s(?=\()').apply(lambda x
 
 merged_list = movie_df.merge(book_df, how = 'left', left_on = ['Title'], right_on = ['title'])
 # might be a little issue with the merge but will work on later
-merged_list.to_csv('bookdata.csv')
+merged_list.to_csv('data/bookdata.csv')
