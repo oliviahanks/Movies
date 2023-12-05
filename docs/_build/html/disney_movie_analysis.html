@@ -122,6 +122,27 @@
 </dd></dl>
 
 </section>
+<section id="disney-movie-analysis-analysis-functions-module">
+<h2>disney_movie_analysis.analysis_functions module<a class="headerlink" href="#disney-movie-analysis-analysis-functions-module" title="Link to this heading">¶</a></h2>
+<dl class="py function" id="module-disney_movie_analysis.analysis_functions">
+<dt class="sig sig-object py" id="disney_movie_analysis.analysis_functions.list_averages">
+<span class="sig-prename descclassname"><span class="pre">disney_movie_analysis.analysis_functions.</span></span><span class="sig-name descname"><span class="pre">list_averages</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">dataframe</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">list_column</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">summary_column</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/disney_movie_analysis/analysis_functions.html#list_averages"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#disney_movie_analysis.analysis_functions.list_averages" title="Link to this definition">¶</a></dt>
+<dd><p>Takes the averages for each value in a column of lists.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>dataframe</strong> – The pandas dataframe being used.</p></li>
+<li><p><strong>list_column</strong> – The column of lists to apply the function on, in the form df[column]</p></li>
+<li><p><strong>summary_column</strong> – The column to take the averages over, in the form df[column]</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>A pandas dataframe containing the averages for each of the list values.</p>
+</dd>
+</dl>
+</dd></dl>
+
+</section>
 <section id="disney-movie-analysis-scrape-data-books-module">
 <h2>disney_movie_analysis.scrape_data_books module<a class="headerlink" href="#disney-movie-analysis-scrape-data-books-module" title="Link to this heading">¶</a></h2>
 </section>
@@ -151,6 +172,10 @@
 <li><a class="reference internal" href="#disney_movie_analysis.scrape_data.get_html_text"><code class="docutils literal notranslate"><span class="pre">get_html_text()</span></code></a></li>
 <li><a class="reference internal" href="#disney_movie_analysis.scrape_data.scrape_imdb"><code class="docutils literal notranslate"><span class="pre">scrape_imdb()</span></code></a></li>
 <li><a class="reference internal" href="#disney_movie_analysis.scrape_data.scrape_rotten_tomatoes"><code class="docutils literal notranslate"><span class="pre">scrape_rotten_tomatoes()</span></code></a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#disney-movie-analysis-analysis-functions-module">disney_movie_analysis.analysis_functions module</a><ul>
+<li><a class="reference internal" href="#disney_movie_analysis.analysis_functions.list_averages"><code class="docutils literal notranslate"><span class="pre">list_averages()</span></code></a></li>
 </ul>
 </li>
 <li><a class="reference internal" href="#disney-movie-analysis-scrape-data-books-module">disney_movie_analysis.scrape_data_books module</a></li>
