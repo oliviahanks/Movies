@@ -6,6 +6,15 @@ import math
 # Clean Rotten Tomatoes
 
 def clean_rotten_tomatoes(rotten_tomatoes):
+    """ Cleans dataframe that was scraped from Rotten Tomatoes using our scrape_rotten_tomatoes function.
+
+    Args:
+      rotten_tomatoes: Raw Rotten Tomatoes pandas dataframe.
+
+    Returns:
+      A cleaned Rotten Tomatoes dataframe.
+    """
+
     rotten_tomatoes['title'] = rotten_tomatoes['title'].str.replace('[\n]','', regex=True).str.replace('[(][^)]+[)]','', regex=True).str.replace('\d+[%]','', regex=True)
 
     rotten_tomatoes['actors'] = rotten_tomatoes.actors.str.replace('[\n](Starring: )', '', regex = True)
@@ -28,6 +37,14 @@ def clean_rotten_tomatoes(rotten_tomatoes):
 
 
 def clean_imdb(imdb):
+    """ Cleans dataframe that was scraped from IMDB using our scrape_imdb function.
+
+    Args:
+      imdb: Raw IMDB pandas dataframe.
+
+    Returns:
+      A cleaned IMDB dataframe.
+    """
 
     imdb['year'] = imdb['year'].apply(lambda x: re.findall('\d+', str(x))[0]).astype(int)
     imdb['runtime'] = imdb['runtime'].apply(lambda x: re.findall('\d+', str(x))[0]).astype(int)

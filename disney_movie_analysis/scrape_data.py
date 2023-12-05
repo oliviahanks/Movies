@@ -8,6 +8,16 @@ from bs4 import BeautifulSoup
 
 
 def get_html_text(bs, name, attrs):
+    """ A function to get certain text from scraped webpage without causing an error if it does not exist.
+
+    Args:
+      bs: A beautiful_soup object.
+      name: The name of the html class.
+      attrs: The attributes in the class that we are looking for.
+
+    Returns:
+      The text following the class and attribute if it exists, otherwise an NA.
+    """
     try:
         text = bs.find(name, attrs).text
     except:
@@ -18,6 +28,14 @@ def get_html_text(bs, name, attrs):
 # Read in Rotten Tomatoes Data
 
 def scrape_rotten_tomatoes(webpage):
+    """ Scrapes data from Rotten Tomatoes webpage.
+
+    Args:
+      webpage: A Rotten Tomatoes webpage link to get the data from.
+
+    Returns:
+      A raw, uncleaned Rotten Tomatoes dataframe.
+    """
     r = requests.get(webpage)
 
     soup = BeautifulSoup(r.text)
@@ -40,6 +58,14 @@ def scrape_rotten_tomatoes(webpage):
 # Read In IMDB Data
 
 def scrape_imdb(webpage):
+    """ Scrapes data from IMDB webpage.
+
+    Args:
+      webpage: An IMDB webpage link to get the data from.
+
+    Returns:
+      A raw, uncleaned IMDB dataframe.
+    """
     r = requests.get(webpage)
     soup = BeautifulSoup(r.text)
 

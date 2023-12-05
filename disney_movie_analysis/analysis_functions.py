@@ -5,6 +5,18 @@ rotten_tomatoes = pd.read_csv('disney_movie_analysis/data/rotten_tomatoes.csv')
 
 
 def list_averages(dataframe, list_column, summary_column):
+
+    """Takes the averages for each value in a column of lists.
+
+    Args:
+      dataframe: The pandas dataframe being used.
+      list_column: The column of lists to apply the function on, in the form df[column]
+      summary_column: The column to take the averages over, in the form df[column]
+
+    Returns:
+      A pandas dataframe containing the averages for each of the list values.
+    """
+
     values = list(filter(None, list(list_column.explode().unique())))
 
     val_averages = {}
