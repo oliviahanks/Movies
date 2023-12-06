@@ -10,7 +10,7 @@ with open('README.md', 'r', encoding='utf-8') as f:
     
 setup(
     name = 'disney_movie_analysis',
-    version = '0.0.1',
+    version = '0.1.1',
     description = 'We looked at subsets of Disney movies and ran analysis on them.',
     author = ['Daisy Harris', 'Olivia Hanks'],
     author_email = ['dasharon@byu.edu', 'hankso@byu.edu'],
