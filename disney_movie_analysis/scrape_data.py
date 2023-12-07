@@ -89,3 +89,32 @@ def scrape_imdb(webpage):
         movies['director'].append(director_list[0] if director_list else "")
 
     return pd.DataFrame(movies)
+
+
+
+
+# Read in Disney Fandom Data
+
+def scrape_fandom(webpage):
+    """ Scrapes data from the Disney Fandom webpage.
+
+    Args:
+      webpage: An Disney Fandom webpage link to get the data from.
+
+    Returns:
+      A raw, uncleaned IMDB dataframe.
+    """
+    response = requests.get(url)
+
+    # make soup
+    soup = BeautifulSoup(response.text, "html.parser")
+
+    # get title/year informtion
+    book_list = soup.find_all("a", {"class":"category-page__member-link"})
+
+    # parse through data
+    adapt_list = []
+    for title in book_list:
+        adapt_list.append(title.get_text())
+
+    return pd.DataFrame(adapt_list, columns = ['title']).dropna()
