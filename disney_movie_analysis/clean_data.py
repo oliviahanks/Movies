@@ -74,3 +74,23 @@ def clean_imdb(imdb):
 
     return imdb
 
+
+
+
+# Clean Disney Fandom Data
+
+def clean_fandom(fandom):
+    """ Cleans dataframe that was scraped from Disney Fandom using our scrape_fandom function.
+
+    Args:
+      imdb: Raw Fandom pandas dataframe.
+
+    Returns:
+      A cleaned Disney Fandom dataframe.
+    """
+
+    fandom['year'] = fandom['year'].astype(str).str.findall('\((\d{4})').apply(lambda x: ''.join(x))
+    fandom['title'] = fandom['title'].str.findall('(^.*?)\s(?=\()').apply(lambda x: ''.join(x))
+
+    return fandom
+
