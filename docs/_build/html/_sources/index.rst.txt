@@ -6,7 +6,7 @@
 Welcome to Movies's documentation!
 ==================================
 
-.. include:: ../readme_link.rst
+.. include:: readme_link.rst
    
 .. toctree::
    :maxdepth: 2
