@@ -19,9 +19,10 @@ def get_html_text(bs, name, attrs):
       The text following the class and attribute if it exists, otherwise an NA.
     """
     try:
-        text = bs.find(name, attrs).text
+        element = bs.find(name, attrs)
+        text = element.text if element else "NA"
     except:
-        text = None | text.isna()
+        text = "NA"
     return text
 
 

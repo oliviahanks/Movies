@@ -26,3 +26,4 @@ def list_averages(dataframe, list_column, summary_column):
     val_averages = pd.DataFrame(val_averages.items())
 
     return val_averages
+
