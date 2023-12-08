@@ -1,4 +1,4 @@
 README
 ======
 
-.. include :: ../README.html
+.. include :: ../README.md
