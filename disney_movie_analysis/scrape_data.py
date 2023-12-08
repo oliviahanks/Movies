@@ -1,11 +1,10 @@
-"""
-This script performs the webscraping and produces the raw dataset to be cleaned.
-"""
-
 import pandas as pd
 import requests
 from bs4 import BeautifulSoup
 
+"""
+This script performs the webscraping and produces the raw dataset to be cleaned.
+"""
 
 def get_html_text(bs, name, attrs):
     """ A function to get certain text from scraped webpage without causing an error if it does not exist.

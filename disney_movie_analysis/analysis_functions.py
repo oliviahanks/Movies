@@ -1,5 +1,7 @@
 import pandas as pd
-
+"""
+This script helps with the analysis.
+"""
 
 def list_averages(dataframe, list_column, summary_column):
 
