@@ -1,7 +1,9 @@
-import pandas as pd
 """
 This script helps with the analysis.
 """
+
+import pandas as pd
+
 
 def list_averages(dataframe, list_column, summary_column):
 
