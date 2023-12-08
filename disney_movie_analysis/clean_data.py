@@ -18,21 +18,26 @@ def clean_rotten_tomatoes(rotten_tomatoes):
     Returns:
       A cleaned Rotten Tomatoes dataframe.
     """
-
+    # Remove everything other than the title from the title column
     rotten_tomatoes['title'] = rotten_tomatoes['title'].str.replace('[\n]','', regex=True).str.replace('[(][^)]+[)]','', regex=True).str.replace('\d+[%]','', regex=True)
+    rotten_tomatoes['title'] = rotten_tomatoes.title.str.strip()
 
+    # Remove 'Starring: ' from actor column and 'Directed By: ' from directors column
     rotten_tomatoes['actors'] = rotten_tomatoes.actors.str.replace('[\n](Starring: )', '', regex = True)
     rotten_tomatoes['director'] = rotten_tomatoes.director.str.replace('[\n](Directed By: )', '', regex = True)
 
+    # Make actors and directors columns into columns of lists
     rotten_tomatoes['actors'] = rotten_tomatoes['actors'].str.split(',')
     rotten_tomatoes['director'] = rotten_tomatoes['director'].str.split(',')
 
+    # Format years in year column as integers
     rotten_tomatoes['year'] = rotten_tomatoes.year.apply(lambda x: re.findall('\d+', str(x))[0])
+    rotten_tomatoes['year'] = rotten_tomatoes.year.astype(int)
+
+    # Make a column with the score out of ten to compare with IMDB scores
     rotten_tomatoes['comparison_score'] = rotten_tomatoes.score.apply(lambda x: int(re.findall('\d+', x)[0])/10)
 
-    rotten_tomatoes['year'] = rotten_tomatoes.year.astype(int)
-    rotten_tomatoes['title'] = rotten_tomatoes.title.str.strip()
-
+    # Return cleaned dataframe
     return rotten_tomatoes
 
 
@@ -49,30 +54,35 @@ def clean_imdb(imdb):
     Returns:
       A cleaned IMDB dataframe.
     """
-
+    # Format year, runtime, and gross to be able to convert them into integers, and convert score to float
     imdb['year'] = imdb['year'].apply(lambda x: re.findall('\d+', str(x))[0]).astype(int)
     imdb['runtime'] = imdb['runtime'].apply(lambda x: re.findall('\d+', str(x))[0]).astype(int)
     imdb['gross'] = imdb['gross'].str.replace('[,]','', regex=True).astype(int)
-
     imdb['score'] = imdb['score'].astype(float)
 
+    # Remove everything other than the title
     imdb['title'] = imdb['title'].str.replace('[\n][^\n]+[\n]','', regex=True)
     imdb['title'] = imdb.title.str.strip()
 
+    # Convert the genre column to a column of lists
     imdb['genre'] = imdb['genre'].str.replace('[\n]','', regex=True).apply(lambda x: x.strip())
-    imdb['genre'] = imdb['genre'].apply(lambda x: x.replace(', ', ','))
+    imdb['genre'] = imdb['genre'].apply(lambda x: x.replace(', ', ',')).str.split(',')
 
-
+    # Separate uncleaned director column into director and actors columns
     imdb[['director', 'actors']] = imdb['director'].str.replace('[\n]','', regex=True).apply(lambda x: str(x).replace(', ', ',')).apply(lambda x: x.strip()).str.split('|', expand = True)
 
-    imdb['actors'] = imdb.actors.str.replace('\s*Stars:\s*', '', regex = True).str.replace('\s*Star:\s*', '', regex = True)
+    # Remove everything but actor names and convert into a column of lists
+    imdb['actors'] = imdb['actors'].str.replace('\s*Stars:\s*', '', regex = True).str.replace('\s*Star:\s*', '', regex = True)
     imdb['actors'] = imdb['actors'].str.split(',')
 
-    imdb['director'] = imdb.director.str.replace('Directors:', '', regex = True).str.replace('Director:', '', regex = True)
+    # Remove everything but director names and convert into a column of lists
+    imdb['director'] = imdb['director'].str.replace('Directors:', '', regex = True).str.replace('Director:', '', regex = True)
     imdb['director'] = imdb['director'].str.split(',')
 
-    imdb['decade'] = imdb.year.apply(lambda x: math.floor(x/10)*10)
+    # From the year column create a column of decades
+    imdb['decade'] = imdb['year'].apply(lambda x: math.floor(x/10)*10)
 
+    # Return cleaned dataframe
     return imdb
 
 

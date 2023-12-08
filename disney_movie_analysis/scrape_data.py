@@ -17,6 +17,7 @@ def get_html_text(bs, name, attrs):
     Returns:
       The text following the class and attribute if it exists, otherwise an NA.
     """
+    # Check if an element is in beautiful soup, if it is get the text from it, if not set text = NA
     try:
         element = bs.find(name, attrs)
         text = element.text if element else "NA"
@@ -36,13 +37,19 @@ def scrape_rotten_tomatoes(webpage):
     Returns:
       A raw, uncleaned Rotten Tomatoes dataframe.
     """
-    r = requests.get(webpage)
+    # Send a request to a given url
+    r = requests.get(webpage) 
 
+    # Create a beautiful soup object
     soup = BeautifulSoup(r.text)
 
-    movies = {'title':[], 'year':[], 'score':[], 'actors':[], 'director':[]}
+    # Initialize a dictionary to hold information
+    movies = {'title':[], 'year':[], 'score':[], 'actors':[], 'director':[]} 
 
+    # Find all movie data occurences
     occurences = soup.find_all("div", {"class": "row countdown-item"})
+
+    # Iterate through each occurence, extracting relevant information and storing it in the dictionary
     for occurence in occurences:
         movies['title'].append(occurence.find('div', {'class': 'article_movie_title'}).text)
         movies['year'].append(occurence.find('span', {'class:', 'subtle start-year'}).text) 
@@ -50,6 +57,7 @@ def scrape_rotten_tomatoes(webpage):
         movies['actors'].append(get_html_text(occurence, 'div', {'class': 'info cast'}))
         movies['director'].append(get_html_text(occurence, 'div', {'class': 'info director'}))
 
+    # Return a pandas dataframe created from the dictionary
     return pd.DataFrame(movies)
 
 
@@ -66,13 +74,19 @@ def scrape_imdb(webpage):
     Returns:
       A raw, uncleaned IMDB dataframe.
     """
+    # Send a request to a given url
     r = requests.get(webpage)
+
+    # Create a beautiful soup object
     soup = BeautifulSoup(r.text)
 
+    # Initialize a dictionary to hold information
     movies = {'title':[], 'year':[], 'score':[], 'runtime':[], 'rating':[], 'genre':[], 'gross':[], 'director': []}
 
+    # Find all movie data occurences
     occurences = soup.find_all("div", {"class": "lister-item-content"})
 
+    # Iterate through each occurence, extracting relevant information and storing it in the dictionary
     for occurence in occurences:
         movies['title'].append(get_html_text(occurence, 'h3', {'class': 'lister-item-header'}))
         movies['year'].append(get_html_text(occurence, 'span', {'class:', 'lister-item-year text-muted unbold'})) 
@@ -88,6 +102,7 @@ def scrape_imdb(webpage):
 
         movies['director'].append(director_list[0] if director_list else "")
 
+    # Return a pandas dataframe created from the dictionary
     return pd.DataFrame(movies)
 
 
