@@ -51,9 +51,9 @@ def scrape_rotten_tomatoes(webpage):
 
     # Iterate through each occurence, extracting relevant information and storing it in the dictionary
     for occurence in occurences:
-        movies['title'].append(occurence.find('div', {'class': 'article_movie_title'}).text)
-        movies['year'].append(occurence.find('span', {'class:', 'subtle start-year'}).text) 
-        movies['score'].append(occurence.find('span', {'class': 'tMeterScore'}).text)
+        movies['title'].append(get_html_text(occurence, 'div', {'class': 'article_movie_title'})) 
+        movies['year'].append(get_html_text(occurence, 'span', {'class:', 'subtle start-year'}))
+        movies['score'].append(get_html_text(occurence, 'span', {'class': 'tMeterScore'}))
         movies['actors'].append(get_html_text(occurence, 'div', {'class': 'info cast'}))
         movies['director'].append(get_html_text(occurence, 'div', {'class': 'info director'}))
 
