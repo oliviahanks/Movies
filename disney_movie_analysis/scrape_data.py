@@ -41,7 +41,7 @@ def scrape_rotten_tomatoes(webpage):
     r = requests.get(webpage) 
 
     # Create a beautiful soup object
-    soup = BeautifulSoup(r.text)
+    soup = BeautifulSoup(r.text, features="lxml")
 
     # Initialize a dictionary to hold information
     movies = {'title':[], 'year':[], 'score':[], 'actors':[], 'director':[]} 
@@ -78,7 +78,7 @@ def scrape_imdb(webpage):
     r = requests.get(webpage)
 
     # Create a beautiful soup object
-    soup = BeautifulSoup(r.text)
+    soup = BeautifulSoup(r.text, features="lxml")
 
     # Initialize a dictionary to hold information
     movies = {'title':[], 'year':[], 'score':[], 'runtime':[], 'rating':[], 'genre':[], 'gross':[], 'director': []}
