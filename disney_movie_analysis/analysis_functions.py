@@ -3,6 +3,7 @@ This script helps with the analysis.
 """
 
 import pandas as pd
+import matplotlib.pyplot as plt
 
 
 def list_averages(dataframe, list_column, summary_column):
@@ -36,3 +37,21 @@ def list_averages(dataframe, list_column, summary_column):
     # Return dataframe
     return val_averages
 
+
+def year_averages_plot(df, group_column, average_column):
+
+    """Graphs the average of numberic columns through the years.
+
+    Args:
+      df: The pandas dataframe being used.
+      group_column: The name of a column of to group data by, ie year.
+      average_column: The name of a column to graph the averages of over the groups.
+
+    Returns:
+      None
+    """
+    plt.plot(df.groupby(df[group_column])[average_column].mean()) 
+    plt.xlabel(group_column.capitalize())
+    plt.ylabel(average_column.capitalize())
+    plt.title(f'Average {average_column.capitalize()} By {group_column.capitalize()}')
+    plt.show()
