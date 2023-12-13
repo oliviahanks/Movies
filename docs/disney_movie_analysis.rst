@@ -4,10 +4,10 @@ disney\_movie\_analysis package
 Submodules
 ----------
 
-disney\_movie\_analysis.clean\_data module
-------------------------------------------
+disney\_movie\_analysis.clean\_data\_functions module
+-----------------------------------------------------
 
-.. automodule:: disney_movie_analysis.clean_data
+.. automodule:: disney_movie_analysis.clean_data_functions
    :members:
    :undoc-members:
    :show-inheritance:
