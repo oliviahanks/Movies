@@ -1,29 +1,28 @@
 """
-This script runs all functions to provide cleaned datasets.
+This script imports the raw data, cleans it, and exports the final dataset.
 """
-
-import pandas as pd
-import re
-import math
-import numpy as np
-from clean_data_functions import clean_imdb, clean_rotten_tomatoes
-
 if __name__ == '__main__' :
 
-    # Clean Rotten Tomatoes Dataframe
+  import pandas as pd
+  import re
+  import math
+  import numpy as np
+  from clean_data_functions import clean_imdb, clean_rotten_tomatoes
 
-    rotten_tomatoes = pd.read_csv('data/rotten_tomatoes_raw.csv')
-    rotten_tomatoes = clean_rotten_tomatoes(rotten_tomatoes)
-    rotten_tomatoes.to_csv('data/rotten_tomatoes.csv', index = False)
+  # Clean Rotten Tomatoes Dataframe
 
-    # Clean IMDB Dataframe
+  rotten_tomatoes = pd.read_csv('data/rotten_tomatoes_raw.csv')
+  rotten_tomatoes = clean_rotten_tomatoes(rotten_tomatoes)
+  rotten_tomatoes.to_csv('data/rotten_tomatoes.csv', index = False)
 
-    imdb = pd.read_csv('data/imdb_raw.csv')
-    imdb = clean_imdb(imdb)
-    imdb.to_csv('data/imdb.csv', index = False)
+  # Clean IMDB Dataframe
 
-    # Clean Disney Fandom Dataframe
+  imdb = pd.read_csv('data/imdb_raw.csv')
+  imdb = clean_imdb(imdb)
+  imdb.to_csv('data/imdb.csv', index = False)
 
-    fandom = pd.read_csv('data/disney_fandom_raw.csv')
-    fandom = clean_fandom(fandom)
-    fandom.to_csv('data/disney_fandom.csv', index = False)
+  # Clean Disney Fandom Dataframe
+
+  #fandom = pd.read_csv('data/disney_fandom_raw.csv')
+  #fandom = clean_fandom(fandom)
+  #fandom.to_csv('data/disney_fandom.csv', index = False)

@@ -59,7 +59,6 @@ def clean_imdb(imdb):
     imdb['year'] = imdb['year'].apply(lambda x: re.findall('\d+', str(x))[0]).astype(int)
     imdb['runtime'] = imdb['runtime'].apply(lambda x: int(re.findall('\d+', str(x))[0]) if re.findall('\d+', str(x)) else np.nan)
     imdb['gross'] = pd.to_numeric(imdb['gross'].str.replace('[,]','', regex=True), errors='coerce').astype('Int64')
-    imdb['gross'] = imdb['gross'].astype(int)
     imdb['score'] = imdb['score'].astype(float)
 
     # Remove everything other than the title
