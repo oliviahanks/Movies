@@ -138,6 +138,23 @@
 </dd></dl>
 
 <dl class="py function">
+<dt class="sig sig-object py" id="disney_movie_analysis.analysis_functions.top_list_vals">
+<span class="sig-prename descclassname"><span class="pre">disney_movie_analysis.analysis_functions.</span></span><span class="sig-name descname"><span class="pre">top_list_vals</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">column</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">n</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/disney_movie_analysis/analysis_functions.html#top_list_vals"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#disney_movie_analysis.analysis_functions.top_list_vals" title="Link to this definition">¶</a></dt>
+<dd><p>Graphs the average of numberic columns through the years.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>column</strong> – A column of lists in a pandas dataframe in the form df[‘col_name’]</p></li>
+<li><p><strong>n</strong> – The number of top values to return</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>A pandas dataframe containing counts of the frequency of the top n values in the list column.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
 <dt class="sig sig-object py" id="disney_movie_analysis.analysis_functions.year_averages_plot">
 <span class="sig-prename descclassname"><span class="pre">disney_movie_analysis.analysis_functions.</span></span><span class="sig-name descname"><span class="pre">year_averages_plot</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">df</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">group_column</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">average_column</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/disney_movie_analysis/analysis_functions.html#year_averages_plot"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#disney_movie_analysis.analysis_functions.year_averages_plot" title="Link to this definition">¶</a></dt>
 <dd><p>Graphs the average of numberic columns through the years.</p>
@@ -247,6 +264,7 @@
 </li>
 <li><a class="reference internal" href="#module-disney_movie_analysis.analysis_functions">disney_movie_analysis.analysis_functions module</a><ul>
 <li><a class="reference internal" href="#disney_movie_analysis.analysis_functions.list_averages"><code class="docutils literal notranslate"><span class="pre">list_averages()</span></code></a></li>
+<li><a class="reference internal" href="#disney_movie_analysis.analysis_functions.top_list_vals"><code class="docutils literal notranslate"><span class="pre">top_list_vals()</span></code></a></li>
 <li><a class="reference internal" href="#disney_movie_analysis.analysis_functions.year_averages_plot"><code class="docutils literal notranslate"><span class="pre">year_averages_plot()</span></code></a></li>
 </ul>
 </li>

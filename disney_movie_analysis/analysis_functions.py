@@ -4,6 +4,7 @@ This script helps with the analysis.
 
 import pandas as pd
 import matplotlib.pyplot as plt
+from collections import Counter
 
 
 def list_averages(dataframe, list_column, summary_column):
@@ -27,7 +28,7 @@ def list_averages(dataframe, list_column, summary_column):
     # Iterate through each value and take the average for that value
     for value in values:
       # Filter rows where the value is included in the list
-        ratings = dataframe[list_column.apply(lambda x: value in x)].loc[:, summary_column.name].dropna()
+        ratings = dataframe[list_column.apply(lambda x: value in x if x is not None else False)].loc[:, summary_column.name].dropna()
         avg_rating = ratings.mean()
         val_averages[value] = avg_rating.round(4)
 
@@ -55,3 +56,23 @@ def year_averages_plot(df, group_column, average_column):
     plt.ylabel(average_column.capitalize())
     plt.title(f'Average {average_column.capitalize()} By {group_column.capitalize()}')
     plt.show()
+
+
+def top_list_vals(column, n):
+
+  """Graphs the average of numberic columns through the years.
+
+  Args:
+    column: A column of lists in a pandas dataframe in the form df['col_name']
+    n: The number of top values to return
+
+  Returns:
+    A pandas dataframe containing counts of the frequency of the top n values in the list column.
+  """
+  # Count occurrences of each item in the list column
+  item_count = column.apply(lambda x: Counter(x))
+
+  # Sum the counts and find the top n most common values
+  top_vals = pd.DataFrame(sum(item_count, Counter()).most_common(n))
+
+  return top_vals

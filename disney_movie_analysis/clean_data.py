@@ -5,6 +5,7 @@ This script takes the raw data and does the data cleaning and organizing.
 import pandas as pd
 import re
 import math
+import numpy as np
 
 
 # Clean Rotten Tomatoes
@@ -56,8 +57,9 @@ def clean_imdb(imdb):
     """
     # Format year, runtime, and gross to be able to convert them into integers, and convert score to float
     imdb['year'] = imdb['year'].apply(lambda x: re.findall('\d+', str(x))[0]).astype(int)
-    imdb['runtime'] = imdb['runtime'].apply(lambda x: re.findall('\d+', str(x))[0]).astype(int)
-    imdb['gross'] = imdb['gross'].str.replace('[,]','', regex=True).astype(int)
+    imdb['runtime'] = imdb['runtime'].apply(lambda x: int(re.findall('\d+', str(x))[0]) if re.findall('\d+', str(x)) else np.nan)
+    imdb['gross'] = pd.to_numeric(imdb['gross'].str.replace('[,]','', regex=True), errors='coerce').astype('Int64')
+    imdb['gross'] = imdb['gross'].astype(int)
     imdb['score'] = imdb['score'].astype(float)
 
     # Remove everything other than the title

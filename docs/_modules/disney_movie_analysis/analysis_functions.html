@@ -67,6 +67,7 @@
 
 <span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
 <span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
+<span class="kn">from</span> <span class="nn">collections</span> <span class="kn">import</span> <span class="n">Counter</span>
 
 
 <div class="viewcode-block" id="list_averages">
@@ -92,7 +93,7 @@
     <span class="c1"># Iterate through each value and take the average for that value</span>
     <span class="k">for</span> <span class="n">value</span> <span class="ow">in</span> <span class="n">values</span><span class="p">:</span>
       <span class="c1"># Filter rows where the value is included in the list</span>
-        <span class="n">ratings</span> <span class="o">=</span> <span class="n">dataframe</span><span class="p">[</span><span class="n">list_column</span><span class="o">.</span><span class="n">apply</span><span class="p">(</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">value</span> <span class="ow">in</span> <span class="n">x</span><span class="p">)]</span><span class="o">.</span><span class="n">loc</span><span class="p">[:,</span> <span class="n">summary_column</span><span class="o">.</span><span class="n">name</span><span class="p">]</span><span class="o">.</span><span class="n">dropna</span><span class="p">()</span>
+        <span class="n">ratings</span> <span class="o">=</span> <span class="n">dataframe</span><span class="p">[</span><span class="n">list_column</span><span class="o">.</span><span class="n">apply</span><span class="p">(</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">value</span> <span class="ow">in</span> <span class="n">x</span> <span class="k">if</span> <span class="n">x</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span> <span class="k">else</span> <span class="kc">False</span><span class="p">)]</span><span class="o">.</span><span class="n">loc</span><span class="p">[:,</span> <span class="n">summary_column</span><span class="o">.</span><span class="n">name</span><span class="p">]</span><span class="o">.</span><span class="n">dropna</span><span class="p">()</span>
         <span class="n">avg_rating</span> <span class="o">=</span> <span class="n">ratings</span><span class="o">.</span><span class="n">mean</span><span class="p">()</span>
         <span class="n">val_averages</span><span class="p">[</span><span class="n">value</span><span class="p">]</span> <span class="o">=</span> <span class="n">avg_rating</span><span class="o">.</span><span class="n">round</span><span class="p">(</span><span class="mi">4</span><span class="p">)</span>
 
@@ -123,6 +124,29 @@
     <span class="n">plt</span><span class="o">.</span><span class="n">ylabel</span><span class="p">(</span><span class="n">average_column</span><span class="o">.</span><span class="n">capitalize</span><span class="p">())</span>
     <span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;Average </span><span class="si">{</span><span class="n">average_column</span><span class="o">.</span><span class="n">capitalize</span><span class="p">()</span><span class="si">}</span><span class="s1"> By </span><span class="si">{</span><span class="n">group_column</span><span class="o">.</span><span class="n">capitalize</span><span class="p">()</span><span class="si">}</span><span class="s1">&#39;</span><span class="p">)</span>
     <span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span></div>
+
+
+
+<div class="viewcode-block" id="top_list_vals">
+<a class="viewcode-back" href="../../disney_movie_analysis.html#disney_movie_analysis.analysis_functions.top_list_vals">[docs]</a>
+<span class="k">def</span> <span class="nf">top_list_vals</span><span class="p">(</span><span class="n">column</span><span class="p">,</span> <span class="n">n</span><span class="p">):</span>
+
+<span class="w">  </span><span class="sd">&quot;&quot;&quot;Graphs the average of numberic columns through the years.</span>
+
+<span class="sd">  Args:</span>
+<span class="sd">    column: A column of lists in a pandas dataframe in the form df[&#39;col_name&#39;]</span>
+<span class="sd">    n: The number of top values to return</span>
+
+<span class="sd">  Returns:</span>
+<span class="sd">    A pandas dataframe containing counts of the frequency of the top n values in the list column.</span>
+<span class="sd">  &quot;&quot;&quot;</span>
+  <span class="c1"># Count occurrences of each item in the list column</span>
+  <span class="n">item_count</span> <span class="o">=</span> <span class="n">column</span><span class="o">.</span><span class="n">apply</span><span class="p">(</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">Counter</span><span class="p">(</span><span class="n">x</span><span class="p">))</span>
+
+  <span class="c1"># Sum the counts and find the top n most common values</span>
+  <span class="n">top_vals</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="nb">sum</span><span class="p">(</span><span class="n">item_count</span><span class="p">,</span> <span class="n">Counter</span><span class="p">())</span><span class="o">.</span><span class="n">most_common</span><span class="p">(</span><span class="n">n</span><span class="p">))</span>
+
+  <span class="k">return</span> <span class="n">top_vals</span></div>
 
 </pre></div>
 
