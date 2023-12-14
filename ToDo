@@ -12,7 +12,6 @@ Conclusion
 
 Package:
 Add any last functionality
-test.py file
 Finish and combine analysis notebooks
 --Ask Dr. Rhodes about separate demo.ipynb
 * clean_data.py - I have moved our functions to clean_data_functions.py, clean_data, at Dr. Rhodes request, should take the raw data from our data folder and run everything necessary 
