@@ -17,7 +17,7 @@ sys.path.insert(0, os.path.abspath('..'))
 
 # -- Project information -----------------------------------------------------
 
-project = 'Movies'
+project = 'disney_movie_analysis'
 copyright = '2023, Daisy Harris, Olivia Hanks'
 author = 'Daisy Harris, Olivia Hanks'
 
