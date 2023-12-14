@@ -51,16 +51,19 @@ def year_averages_plot(df, group_column, average_column):
     Returns:
       None
     """
+    # Plot average of column over over another variable
     plt.plot(df.groupby(df[group_column])[average_column].mean()) 
     plt.xlabel(group_column.capitalize())
     plt.ylabel(average_column.capitalize())
     plt.title(f'Average {average_column.capitalize()} By {group_column.capitalize()}')
+
+    # Show average plot
     plt.show()
 
 
 def top_list_vals(column, n):
 
-  """Graphs the average of numberic columns through the years.
+  """From a list column, returns counts of the frequency of each list value.
 
   Args:
     column: A column of lists in a pandas dataframe in the form df['col_name']
@@ -75,4 +78,23 @@ def top_list_vals(column, n):
   # Sum the counts and find the top n most common values
   top_vals = pd.DataFrame(sum(item_count, Counter()).most_common(n))
 
+  # Return Dataframe
   return top_vals
+
+
+
+def merge_imdb_rt(imdb, rotten_tomatoes):
+    """Merge cleaned IMDB and Rotten Tomatoes datasets.
+
+    Args:
+      imdb: A cleaned IMDB pandas dataframe.
+      rotten_tomatoes: A cleaned Rotten Tomatoes dataframe.
+
+    Returns:
+      A pandas dataframe of the merged IMDB and Rotten Tomatoes dataframes.
+    """
+
+    merged = rotten_tomatoes.drop(['director', 'actors'], axis = 1).merge(imdb, how= 'inner', on = ['title', 'year'])
+    merged = merged.rename(columns={'score_y': 'imdb_score', 'comparison_score': 'rotten_tomatoes_score'})
+
+    return merged

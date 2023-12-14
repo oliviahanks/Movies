@@ -119,10 +119,13 @@
 <span class="sd">    Returns:</span>
 <span class="sd">      None</span>
 <span class="sd">    &quot;&quot;&quot;</span>
+    <span class="c1"># Plot average of column over over another variable</span>
     <span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">df</span><span class="o">.</span><span class="n">groupby</span><span class="p">(</span><span class="n">df</span><span class="p">[</span><span class="n">group_column</span><span class="p">])[</span><span class="n">average_column</span><span class="p">]</span><span class="o">.</span><span class="n">mean</span><span class="p">())</span> 
     <span class="n">plt</span><span class="o">.</span><span class="n">xlabel</span><span class="p">(</span><span class="n">group_column</span><span class="o">.</span><span class="n">capitalize</span><span class="p">())</span>
     <span class="n">plt</span><span class="o">.</span><span class="n">ylabel</span><span class="p">(</span><span class="n">average_column</span><span class="o">.</span><span class="n">capitalize</span><span class="p">())</span>
     <span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;Average </span><span class="si">{</span><span class="n">average_column</span><span class="o">.</span><span class="n">capitalize</span><span class="p">()</span><span class="si">}</span><span class="s1"> By </span><span class="si">{</span><span class="n">group_column</span><span class="o">.</span><span class="n">capitalize</span><span class="p">()</span><span class="si">}</span><span class="s1">&#39;</span><span class="p">)</span>
+
+    <span class="c1"># Show average plot</span>
     <span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span></div>
 
 
@@ -131,7 +134,7 @@
 <a class="viewcode-back" href="../../disney_movie_analysis.html#disney_movie_analysis.analysis_functions.top_list_vals">[docs]</a>
 <span class="k">def</span> <span class="nf">top_list_vals</span><span class="p">(</span><span class="n">column</span><span class="p">,</span> <span class="n">n</span><span class="p">):</span>
 
-<span class="w">  </span><span class="sd">&quot;&quot;&quot;Graphs the average of numberic columns through the years.</span>
+<span class="w">  </span><span class="sd">&quot;&quot;&quot;From a list column, returns counts of the frequency of each list value.</span>
 
 <span class="sd">  Args:</span>
 <span class="sd">    column: A column of lists in a pandas dataframe in the form df[&#39;col_name&#39;]</span>
@@ -146,7 +149,29 @@
   <span class="c1"># Sum the counts and find the top n most common values</span>
   <span class="n">top_vals</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="nb">sum</span><span class="p">(</span><span class="n">item_count</span><span class="p">,</span> <span class="n">Counter</span><span class="p">())</span><span class="o">.</span><span class="n">most_common</span><span class="p">(</span><span class="n">n</span><span class="p">))</span>
 
+  <span class="c1"># Return Dataframe</span>
   <span class="k">return</span> <span class="n">top_vals</span></div>
+
+
+
+
+<div class="viewcode-block" id="merge_imdb_rt">
+<a class="viewcode-back" href="../../disney_movie_analysis.html#disney_movie_analysis.analysis_functions.merge_imdb_rt">[docs]</a>
+<span class="k">def</span> <span class="nf">merge_imdb_rt</span><span class="p">(</span><span class="n">imdb</span><span class="p">,</span> <span class="n">rotten_tomatoes</span><span class="p">):</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;Merge cleaned IMDB and Rotten Tomatoes datasets.</span>
+
+<span class="sd">    Args:</span>
+<span class="sd">      imdb: A cleaned IMDB pandas dataframe.</span>
+<span class="sd">      rotten_tomatoes: A cleaned Rotten Tomatoes dataframe.</span>
+
+<span class="sd">    Returns:</span>
+<span class="sd">      A pandas dataframe of the merged IMDB and Rotten Tomatoes dataframes.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+
+    <span class="n">merged</span> <span class="o">=</span> <span class="n">rotten_tomatoes</span><span class="o">.</span><span class="n">drop</span><span class="p">([</span><span class="s1">&#39;director&#39;</span><span class="p">,</span> <span class="s1">&#39;actors&#39;</span><span class="p">],</span> <span class="n">axis</span> <span class="o">=</span> <span class="mi">1</span><span class="p">)</span><span class="o">.</span><span class="n">merge</span><span class="p">(</span><span class="n">imdb</span><span class="p">,</span> <span class="n">how</span><span class="o">=</span> <span class="s1">&#39;inner&#39;</span><span class="p">,</span> <span class="n">on</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;title&#39;</span><span class="p">,</span> <span class="s1">&#39;year&#39;</span><span class="p">])</span>
+    <span class="n">merged</span> <span class="o">=</span> <span class="n">merged</span><span class="o">.</span><span class="n">rename</span><span class="p">(</span><span class="n">columns</span><span class="o">=</span><span class="p">{</span><span class="s1">&#39;score_y&#39;</span><span class="p">:</span> <span class="s1">&#39;imdb_score&#39;</span><span class="p">,</span> <span class="s1">&#39;comparison_score&#39;</span><span class="p">:</span> <span class="s1">&#39;rotten_tomatoes_score&#39;</span><span class="p">})</span>
+
+    <span class="k">return</span> <span class="n">merged</span></div>
 
 </pre></div>
 
