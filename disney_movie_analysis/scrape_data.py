@@ -119,7 +119,7 @@ def scrape_fandom(webpage):
     Returns:
       A raw, uncleaned IMDB dataframe.
     """
-    response = requests.get(url)
+    response = requests.get(webpage)
 
     # make soup
     soup = BeautifulSoup(response.text, "html.parser")
