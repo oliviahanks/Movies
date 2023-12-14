@@ -24,6 +24,7 @@ Double check requirements.txt
 Double check __init__.py
 Download package in fresh environment and make sure everything works, run clean_data.py
 Delete ToDo
+Possibly rename repository to match function?
 
 
 * I did a super basic hypothesis test and confidence interval using statmodels, so we can just leave it at that, or feel free to add functions.
