@@ -13,14 +13,14 @@ def list_averages(dataframe, list_column, summary_column):
 
     Args:
       dataframe: The pandas dataframe being used.
-      list_column: The column of lists to apply the function on, in the form df[column]
-      summary_column: The column to take the averages over, in the form df[column]
+      list_column: The column of lists to apply the function on
+      summary_column: The column to take the averages over
 
     Returns:
       A pandas dataframe containing the averages for each of the list values.
     """
     # Explode lists in the rows of the column to find all the values included in each list
-    values = list(filter(None, list(list_column.explode().unique())))
+    values = list(filter(None, list(dataframe[list_column].explode().unique())))
 
     # Initialize a dictionary to store averages
     val_averages = {}
@@ -28,7 +28,7 @@ def list_averages(dataframe, list_column, summary_column):
     # Iterate through each value and take the average for that value
     for value in values:
       # Filter rows where the value is included in the list
-        ratings = dataframe[list_column.apply(lambda x: value in x if x is not None else False)].loc[:, summary_column.name].dropna()
+        ratings = dataframe[dataframe[list_column].apply(lambda x: value in x if x is not None else False)].loc[:, summary_column].dropna()
         avg_rating = ratings.mean()
         val_averages[value] = avg_rating.round(4)
 
