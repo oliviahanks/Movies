@@ -17,7 +17,7 @@ From there you can import disney_movie_analysis in any python file and run the f
 Pages Link
 ----------
 
-https://oliviahanks.github.io/Movies/
+https://oliviahanks.github.io/disney_movie_analysis/
 
 
 Data Sources
