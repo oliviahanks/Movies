@@ -101,7 +101,6 @@ def clean_fandom(fandom):
       A cleaned Disney Fandom dataframe.
     """
 
-    fandom['year'] = fandom['year'].astype(str).str.findall('\((\d{4})').apply(lambda x: ''.join(x))
-    fandom['title'] = fandom['title'].str.findall('(^.*?)\s(?=\()').apply(lambda x: ''.join(x))
+    fandom['title'] = np.where(fandom['title'].str.contains('\('), fandom['title'].str.findall('(^.*?)\s(?=\()').apply(lambda x: ''.join(x)), fandom['title'])
 
     return fandom
