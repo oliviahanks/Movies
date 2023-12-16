@@ -4,4 +4,4 @@ requests
 bs4
 matplotlib
 seaborn
-collections
+collections.Counter
