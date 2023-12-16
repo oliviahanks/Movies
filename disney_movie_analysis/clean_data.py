@@ -7,7 +7,7 @@ if __name__ == '__main__' :
   import re
   import math
   import numpy as np
-  from clean_data_functions import clean_imdb, clean_rotten_tomatoes, clean_fandom
+  from disney_movie_analysis import clean_imdb, clean_rotten_tomatoes, clean_fandom
 
   # Clean Rotten Tomatoes Dataframe
 
