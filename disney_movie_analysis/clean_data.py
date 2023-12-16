@@ -23,6 +23,6 @@ if __name__ == '__main__' :
 
   # Clean Disney Fandom Dataframe
 
-  fandom = pd.read_csv('data/fandom_raw.csv')
+  fandom = pd.read_csv('data/disney_fandom_raw.csv')
   fandom = clean_fandom(fandom)
   fandom.to_csv('data/disney_fandom.csv', index = False)

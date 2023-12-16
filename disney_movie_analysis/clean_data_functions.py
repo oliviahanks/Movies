@@ -102,5 +102,6 @@ def clean_fandom(fandom):
     """
 
     fandom['title'] = np.where(fandom['title'].str.contains('\('), fandom['title'].str.findall('(^.*?)\s(?=\()').apply(lambda x: ''.join(x)), fandom['title'])
-
+    fandom.drop_duplicates(keep = 'first', inplace = True)
+    
     return fandom
