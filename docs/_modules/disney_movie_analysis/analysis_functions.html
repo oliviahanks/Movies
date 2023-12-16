@@ -78,14 +78,14 @@
 
 <span class="sd">    Args:</span>
 <span class="sd">      dataframe: The pandas dataframe being used.</span>
-<span class="sd">      list_column: The column of lists to apply the function on, in the form df[column]</span>
-<span class="sd">      summary_column: The column to take the averages over, in the form df[column]</span>
+<span class="sd">      list_column: The column of lists to apply the function on</span>
+<span class="sd">      summary_column: The column to take the averages over</span>
 
 <span class="sd">    Returns:</span>
 <span class="sd">      A pandas dataframe containing the averages for each of the list values.</span>
 <span class="sd">    &quot;&quot;&quot;</span>
     <span class="c1"># Explode lists in the rows of the column to find all the values included in each list</span>
-    <span class="n">values</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="nb">filter</span><span class="p">(</span><span class="kc">None</span><span class="p">,</span> <span class="nb">list</span><span class="p">(</span><span class="n">list_column</span><span class="o">.</span><span class="n">explode</span><span class="p">()</span><span class="o">.</span><span class="n">unique</span><span class="p">())))</span>
+    <span class="n">values</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="nb">filter</span><span class="p">(</span><span class="kc">None</span><span class="p">,</span> <span class="nb">list</span><span class="p">(</span><span class="n">dataframe</span><span class="p">[</span><span class="n">list_column</span><span class="p">]</span><span class="o">.</span><span class="n">explode</span><span class="p">()</span><span class="o">.</span><span class="n">unique</span><span class="p">())))</span>
 
     <span class="c1"># Initialize a dictionary to store averages</span>
     <span class="n">val_averages</span> <span class="o">=</span> <span class="p">{}</span>
@@ -93,7 +93,7 @@
     <span class="c1"># Iterate through each value and take the average for that value</span>
     <span class="k">for</span> <span class="n">value</span> <span class="ow">in</span> <span class="n">values</span><span class="p">:</span>
       <span class="c1"># Filter rows where the value is included in the list</span>
-        <span class="n">ratings</span> <span class="o">=</span> <span class="n">dataframe</span><span class="p">[</span><span class="n">list_column</span><span class="o">.</span><span class="n">apply</span><span class="p">(</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">value</span> <span class="ow">in</span> <span class="n">x</span> <span class="k">if</span> <span class="n">x</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span> <span class="k">else</span> <span class="kc">False</span><span class="p">)]</span><span class="o">.</span><span class="n">loc</span><span class="p">[:,</span> <span class="n">summary_column</span><span class="o">.</span><span class="n">name</span><span class="p">]</span><span class="o">.</span><span class="n">dropna</span><span class="p">()</span>
+        <span class="n">ratings</span> <span class="o">=</span> <span class="n">dataframe</span><span class="p">[</span><span class="n">dataframe</span><span class="p">[</span><span class="n">list_column</span><span class="p">]</span><span class="o">.</span><span class="n">apply</span><span class="p">(</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">value</span> <span class="ow">in</span> <span class="n">x</span> <span class="k">if</span> <span class="n">x</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span> <span class="k">else</span> <span class="kc">False</span><span class="p">)]</span><span class="o">.</span><span class="n">loc</span><span class="p">[:,</span> <span class="n">summary_column</span><span class="p">]</span><span class="o">.</span><span class="n">dropna</span><span class="p">()</span>
         <span class="n">avg_rating</span> <span class="o">=</span> <span class="n">ratings</span><span class="o">.</span><span class="n">mean</span><span class="p">()</span>
         <span class="n">val_averages</span><span class="p">[</span><span class="n">value</span><span class="p">]</span> <span class="o">=</span> <span class="n">avg_rating</span><span class="o">.</span><span class="n">round</span><span class="p">(</span><span class="mi">4</span><span class="p">)</span>
 

@@ -193,7 +193,7 @@
 <span class="sd">    Returns:</span>
 <span class="sd">      A raw, uncleaned IMDB dataframe.</span>
 <span class="sd">    &quot;&quot;&quot;</span>
-    <span class="n">response</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">url</span><span class="p">)</span>
+    <span class="n">response</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">webpage</span><span class="p">)</span>
 
     <span class="c1"># make soup</span>
     <span class="n">soup</span> <span class="o">=</span> <span class="n">BeautifulSoup</span><span class="p">(</span><span class="n">response</span><span class="o">.</span><span class="n">text</span><span class="p">,</span> <span class="s2">&quot;html.parser&quot;</span><span class="p">)</span>

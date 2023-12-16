@@ -7,7 +7,7 @@ if __name__ == '__main__' :
   import re
   import math
   import numpy as np
-  from clean_data_functions import clean_imdb, clean_rotten_tomatoes
+  from clean_data_functions import clean_imdb, clean_rotten_tomatoes, clean_fandom
 
   # Clean Rotten Tomatoes Dataframe
 
@@ -23,6 +23,6 @@ if __name__ == '__main__' :
 
   # Clean Disney Fandom Dataframe
 
-  #fandom = pd.read_csv('data/disney_fandom_raw.csv')
-  #fandom = clean_fandom(fandom)
-  #fandom.to_csv('data/disney_fandom.csv', index = False)
+  fandom = pd.read_csv('data/disney_fandom_raw.csv')
+  fandom = clean_fandom(fandom)
+  fandom.to_csv('data/disney_fandom.csv', index = False)
