@@ -95,7 +95,7 @@ def clean_fandom(fandom):
     """ Cleans dataframe that was scraped from Disney Fandom using our scrape_fandom function.
 
     Args:
-      imdb: Raw Fandom pandas dataframe.
+      fandom: Raw Fandom pandas dataframe.
 
     Returns:
       A cleaned Disney Fandom dataframe.
