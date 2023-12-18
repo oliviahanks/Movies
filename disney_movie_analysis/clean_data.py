@@ -7,7 +7,13 @@ if __name__ == '__main__' :
   import re
   import math
   import numpy as np
+
+  # This is how we imported the functions from inside our repository, which ran smoothly and cleaned the data, but if you are running it from a different repository,  
+  # having downloaded the package, comment the section below out and use the one beneath it, changing the path for the csv files as well to where 
+  # you are storing them.
   from clean_data_functions import clean_imdb, clean_rotten_tomatoes, clean_fandom
+  
+  # from disney_movie_analysis import clean_imdb, clean_rotten_tomatoes, clean_fandom
 
   # Clean Rotten Tomatoes Dataframe
 
