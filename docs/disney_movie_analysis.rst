@@ -28,14 +28,6 @@ disney\_movie\_analysis.analysis\_functions module
    :undoc-members:
    :show-inheritance:
 
-disney\_movie\_analysis.scrape\_data\_books module
---------------------------------------------------
-
-.. automodule:: disney_movie_analysis.scrape_data_books
-   :members:
-   :undoc-members:
-   :show-inheritance:
-
 disney\_movie\_analysis.scrape\_data module
 -------------------------------------------
 

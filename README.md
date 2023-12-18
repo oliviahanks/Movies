@@ -3,7 +3,7 @@
 
 Repository Overview
 -------------------
-Welcome to our Disney Movie Analysis repository! This project assists in scraping movie data from movie rating websites, specifically IMDB and Rotten Tomatoes, and making it into a clean and usable dataframe. This information is then used to analyze the factors that influence movie scores, view trends over time, and compare ratings between IMDB and Rotten Tomatoes. For a short demonstration on how to use our functions, reference the demo.ipynb file in the project folder. To view our application of these functions to Disney movies and a more complete analysis, reference the analysis.ipynb file in the project folder.
+Welcome to our Disney Movie Analysis repository! This project assists in scraping movie data from movie rating websites, specifically IMDB and Rotten Tomatoes, and making it into a clean and usable dataframe. This information is then used to analyze the factors that influence movie scores, view trends over time, and compare ratings between IMDB and Rotten Tomatoes. For a short demonstration on how to use our functions, reference the demo.ipynb file. To view our application of these functions to Disney movies and a more complete analysis, reference the analysis.ipynb file in the project folder.
 
 
 Installation and updating
