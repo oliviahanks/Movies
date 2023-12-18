@@ -117,7 +117,7 @@ def scrape_fandom(webpage):
       webpage: An Disney Fandom webpage link to get the data from.
 
     Returns:
-      A raw, uncleaned IMDB dataframe.
+      A raw, uncleaned fandom dataframe.
     """
     response = requests.get(webpage)
 
